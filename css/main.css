@@ -341,8 +341,10 @@ a:focus {
 
 
 footer {
+    padding-top: 20px;
     padding-bottom: 20px;
-    text-size: 14px;
+    text-size: 16px;
+    background-color: #eee;
 }
 
 footer p {
