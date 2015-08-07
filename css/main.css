@@ -199,12 +199,6 @@ a:focus {
     }
 }
 
-#slide-1 {
-    background-image: url(../img/slide-1-1.jpg);
-    height: 100vh;
-
-}
-
 .slide-title {
     height: auto;
     padding: 25px 40px 10px 0px;
@@ -300,13 +294,13 @@ a:focus {
     }
 }
 
+
 .module {
     border: 1px solid;
     border-color: #eee;
     margin-right: -1px;
     margin-bottom: -1px;
 }
-
 
 .module-icon {
     display: block;
