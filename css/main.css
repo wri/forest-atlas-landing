@@ -161,7 +161,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .intro .intro-body .intro-text {
@@ -184,21 +184,14 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 60px;
+        margin: 60px 0px 60px 0px;
     }
 
     .intro .intro-body .intro-text {
         font-size: 30px;
         text-align: center;
+        margin: 60px 0px 60px 0px;
     }
-}
-
-.slide-title {
-    height: auto;
-    padding: 25px 40px 10px 0px;
-    text-align: center;
-    text-shadow: 2px 2px 3px #000;
-    background: rgba(0,0,0,0.4);
-    margin-top: 20%;
 }
 
 
@@ -305,9 +298,11 @@ a:focus {
     background-color: #eee;
 }
 
-.supporter {
-    display: block;
-    padding: 40px;
+@media(min-width:767px) {
+    .supporter {
+        display: block;
+        padding: 40px;
+    }
 }
 
 .btn {
