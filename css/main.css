@@ -137,8 +137,8 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 200px 0px;
     text-align: center;
+    padding: 45px 0px;
     color: #fff;
     background: url(../img/title-bg.jpg) no-repeat bottom center scroll;
     background-color: #fff;
@@ -168,7 +168,8 @@ a:focus {
     .intro, .bcg {
         width: 100%;
         height: auto;
-        padding: auto;
+        padding: 200px 0px;
+
     }
 
     .intro .intro-body .brand-heading {
@@ -275,7 +276,6 @@ a:focus {
 @media(min-width:992px) {
     .module-icon {
         padding:65px 65px 20px 65px;
-
     }
 }
 
@@ -355,5 +355,5 @@ body {
 .flag {
     align:right;
     padding: 0px;
-    margin: 0px -15px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
