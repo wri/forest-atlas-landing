@@ -45,6 +45,10 @@ a {
     transition: all .2s ease-in-out;
 }
 
+a .white-link {
+    color: #fff;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -133,7 +137,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 125px 0;
+    padding: 200px 0px;
     text-align: center;
     color: #fff;
     background: url(../img/title-bg.jpg) no-repeat bottom center scroll;
@@ -156,12 +160,7 @@ a:focus {
 
 .intro .intro-body .intro-text {
     font-size: 24px;
-    font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
-    text-align: center;
-}
-
-.intro .intro-byline {
-    font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
+    text-shadow: 2px 2px 2px #000;
     text-align: center;
 }
 
@@ -174,16 +173,13 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 60px;
-        margin: 60px 0px 60px 0px;
+        margin-top: 40px;
     }
 
     .intro .intro-body .intro-text {
         font-size: 30px;
-        text-align: center;
-        margin: 60px 0px 60px 0px;
     }
 }
-
 
 .btn-circle {
     width: 70px;
@@ -261,8 +257,7 @@ a:focus {
 
 .content-section {
     padding: 20px 30px 20px 30px;
-}
-
+}   
 
 @media(min-width:767px) {
     .content-section {
@@ -282,10 +277,6 @@ a:focus {
         padding:65px 65px 20px 65px;
 
     }
-}
-
-.module-list {
-    background-color: #eee;
 }
 
 @media(min-width:767px) {
@@ -350,4 +341,13 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.title-background {
+    background-color: rgba(200,200,200,0.4);
+    margin: 0;
+}
+
+.language-menu {
+    margin: 10px 0px;
 }
