@@ -3,188 +3,268 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Interactive Forest Atlas of Cameroon</title>
+  <title>Interactive Forest Atlas of Cameroon</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/main.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/main.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <!-- Social Share Kit CSS -->
-    <link href="css/social-share-kit.css" rel="stylesheet" type="text/css">
+  <!-- Social Share Kit CSS -->
+  <link href="css/social-share-kit.css" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-    </head>
+      </head>
 
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+      <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 
         <!-- Header Section-->
         <header class="intro">
-            <div class="intro-body container">
-                <div class="row">
-                    <div class="col-xs-1 col-xs-offset-11 pull-right flag">
-                        <a href="http://www.minfof.cm/" target="_blank" class="header-link">
-                        <img src="img/flag-cameroon.png" class="img-responsive">
-                        </a>
-                    </div>
-                </div>
-                <p class="text-right language-menu">
-                    <a href="http://www.wri.org/" class="header-link">English</a> | <a href="http://www.wri.org/" class="header-link">Français</a>
-                </p>
-                <div class="row title-background">
-                    <div class="col-md-10 col-md-offset-1">
-                        <h1 class="brand-heading">Interactive Forest Atlas of Cameroon</h1>
-                        <p class="intro-text">A practical tool for understanding and working within Cameroon's forest sector</p>
-                    </div>
-                                        
-                </div>
-                <div class="row">
-                    <a href="#tools" class="btn btn-circle page-scroll">
-                        <i class="fa fa-angle-double-down animated"></i>
-                    </a>
-                </div>
+          <div class="intro-body container">
+            <div class="row">
+              <div class="col-xs-1 col-xs-offset-11 pull-right flag">
+                <a href="http://www.minfof.cm/" target="_blank" class="header-link">
+                  <img src="img/flag-cameroon.png" class="img-responsive">
+                </a>
+              </div>
             </div>
+            <p class="text-right language-menu">
+              <a href="http://www.wri.org/" class="header-link">English</a> | <a href="http://www.wri.org/" class="header-link">Français</a>
+            </p>
+            <div class="row title-background">
+              <div class="col-md-10 col-md-offset-1">
+                <h1 class="brand-heading">Interactive Forest Atlas of Cameroon</h1>
+                <p class="intro-text">A practical tool for understanding and working within Cameroon's forest sector</p>
+              </div>
+
+            </div>
+            <div class="row">
+              <a href="#tools" class="btn btn-circle page-scroll">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
         </header> 
 
         <!-- Modules Section -->
         <section id="tools" class="container content-section text-center">
-                <div class="row" >
-                  <div class="col-xs-6 col-sm-3 col-md-3">
-                    <a href="http://www.wri.org/" target="_blank">
-                        <img src="img/icon-map.png" alt="Explore the Map" class="img-responsive module-icon">
-                        <h3>Explore the Map</h3>
-                    </a>
+          <div class="row" >
+            <div class="col-xs-6 col-sm-3 col-md-3">
+              <a href="http://www.wri.org/" target="_blank">
+               <svg id="map-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60%" height="60%" viewBox="0 0 200 200" xml:space="preserve">
+                <g class="svg-icon-bg">
+                  <circle cx="100" cy="100" r="100" />
+                </g>
+                <g class="svg-icon-fill">
+                  <path d="M45.857,60.602l-4.165,77.847l28.304-7.559l4.164-77.847L45.857,60.602z M158.309,138.449l-28.305-7.559
+                  l-3.498-65.393c2.031-3.938,3.749-7.848,4.575-11.054l23.063,6.159L158.309,138.449z M99.237,62.237v76.003l-27.514-7.356
+                  l4.147-77.934l20.906,3.246C97.392,58.071,98.246,60.123,99.237,62.237z M108.626,55.357l11.206-1.74
+                  c-1.037,2.375-3.405,4.04-6.157,4.04C111.662,57.656,109.858,56.763,108.626,55.357z M124.952,68.413
+                  c-4.489,8.177-9.662,15.702-10.043,16.253l-1.234,1.787l-1.234-1.787c-0.429-0.621-6.916-10.057-11.678-19.326v72.9l27.514-7.356
+                  L124.952,68.413z M113.675,95.652c-5.876,0-10.642-1.246-10.642-2.781s4.766-2.781,10.642-2.781s10.639,1.246,10.639,2.781
+                  S119.551,95.652,113.675,95.652z"/>
+                  <path d="M113.675,34.5c-9.078,0-16.438,7.36-16.438,16.438c0,9.079,16.438,32.875,16.438,32.875
+                  s16.437-23.797,16.437-32.875C130.111,41.86,122.751,34.5,113.675,34.5z M113.675,59.156c-4.538,0-8.22-3.68-8.22-8.218
+                  c0-4.54,3.682-8.219,8.22-8.219s8.218,3.679,8.218,8.219S118.213,59.156,113.675,59.156z"/>
+                </g>
+              </svg>
+              <h3>Explore the Map</h3>
+            </a>
 
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-3"> 
-                    <a href="http://www.wri.org/" target="_blank">
-                        <img src="img/icon-chart.png" alt="Analyze the Data" class="img-responsive module-icon">
-                        <h3>Analyze the Data</h3>
-                    </a>    
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-3">
-                    <a href="http://www.wri.org/" target="_blank">
-                        <img src="img/icon-download.png" alt="Download the Data" class="img-responsive module-icon">
-                        <h3>Download the Data</h3>
-                    </a>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-3">
-                    <a href="http://www.wri.org/" target="_blank">
-                        <img src="img/icon-tutorial.png" alt="Download the Data" class="img-responsive module-icon">
-                        <h3>View the Tutorials</h3>
-                    </a>
-                </div>
-        </div>
-        <hr noshade>
-        <br>
-    </section>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3"> 
+            <a href="http://www.wri.org/" target="_blank">
+              <svg id="chart-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60%" height="60%" viewBox="0 0 200 200" xml:space="preserve">
+                <g class="svg-icon-bg">
+                  <circle cx="100" cy="100" r="100" />
+                </g>
+                <g class="svg-icon-fill">
+                  <polygon points="151.523,140.504 140.506,134.142 140.506,138.412 59.69,138.412 59.69,57.598 
+                  63.961,57.598 57.599,46.58 51.238,57.598 55.437,57.598 55.437,142.666 140.506,142.666 140.506,146.865"/>
+                  <rect x="64.652" y="83.827" display="inline" fill="#FFFFFF" width="12.89" height="49.623"/>
+                  <rect x="83.986" y="101.55" display="inline" fill="#FFFFFF" width="12.89" height="31.9"/>
+                  <rect x="103.319" y="59.016" display="inline" fill="#FFFFFF" width="12.89" height="74.435"/>
+                  <rect x="122.653" y="83.827" display="inline" fill="#FFFFFF" width="12.89" height="49.623"/>
+                </g>
+              </svg>
+              <h3>Analyze the Data</h3>
+            </a>    
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="http://www.wri.org/" target="_blank">
+              <svg id="download-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60%" height="60%" viewBox="0 0 200 200" xml:space="preserve">
+                <g class="svg-icon-bg">
+                  <circle cx="100" cy="100" r="100" />
+                </g>
+                <g class="svg-icon-fill">
+                  <path d="M153.302,82.655c-1.548,0-3.04,0.231-4.447,0.657c-2.662-10.393-9.082-18.078-23.312-18.078
+                  c-1.513,0-2.989,0.146-4.424,0.413c-5.068-13.144-17.819-22.471-32.75-22.471c-19.381,0-35.09,15.711-35.09,35.09
+                  c0,0.186,0.003,0.371,0.007,0.555c-1.403-0.362-2.876-0.555-4.393-0.555c-9.69,0.001-17.546,7.857-17.546,17.547
+                  c0,9.691,7.856,17.545,17.545,17.545c0.126,0,0.25-0.006,0.375-0.01v0.01h39.291V79.032h22.885v34.327H153.6v-0.008
+                  c8.341-0.159,15.055-6.965,15.055-15.345C168.654,89.529,161.779,82.655,153.302,82.655z"/>
+                  <polygon points="107.628,120.733 107.628,82.846 92.372,82.846 92.372,120.733 80.93,120.733 100,151.5 
+                  119.07,120.733"/>
+                </g>
+              </svg>
+              <h3>Download the Data</h3>
+            </a>
+          </div>
+          <div class="col-xs-6 col-sm-3 col-md-3">
+            <a href="http://www.wri.org/" target="_blank">
+              <svg id="tutorial-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60%" height="60%" viewBox="0 0 200 200" xml:space="preserve">
+                <g class="svg-icon-bg">
+                  <circle cx="100" cy="100" r="100" />
+                </g>
+                <g class="svg-icon-fill">
+                 <path d="M44.96,107.095c0.005,1.022,0.274,2.159,0.697,3.045c1.188,2.48,4.385,2.962,5.957,0.417
+                 c0.658-1.063,0.932-2.222,0.93-3.557c-0.021-6.692-0.013-13.388-0.013-20.086c0-0.836-0.021-1.672,0.009-2.51
+                 c0.04-1.056,0.209-1.169,1.129-1.192c0.73-0.022,1.016,0.363,0.943,1.237c-0.017,0.193-0.005,0.394-0.005,0.59
+                 c0,9.069,0,21.572,0,37.514c-0.005,2.857,0,7.587-0.005,10.442c-0.001,9.208-0.007,2.069-0.001,11.276
+                 c0.001,0.979-0.096,2.045,0.163,2.927c1.259,4.257,4.887,5.402,7.632,3.22c1.683-1.344,2.198-3.445,2.196-5.843
+                 c-0.015-15.508-0.009-19.981-0.009-35.487c0-0.348-0.014-0.692,0.003-1.037c0.05-1.024,0.293-1.256,1.108-1.276
+                 c0.737-0.016,0.841,0.529,0.835,1.244c-0.005,0.441,0.003,0.886,0.003,1.328c0,15.361,0,19.688,0.002,35.047
+                 c0,1.076,0.054,2.106,0.411,3.157c0.785,2.311,2.161,3.62,4.102,3.848c2.171,0.252,3.9-0.751,4.972-3.279
+                 c0.609-1.442,0.515-2.962,0.515-4.472c0.008-27.51-0.002-37.116-0.005-57.754c0-0.591-0.011-1.185,0.028-1.773
+                 c0.021-0.268,0.129-0.73,0.239-0.749c0.536-0.096,1.113-0.197,1.619-0.035c0.208,0.063,0.381,0.791,0.387,1.221
+                 c0.041,2.114,0.012,4.233,0.018,6.348c0.002,1.26,0.255,2.349,0.981,3.355c1.064,1.473,3.569,1.615,5.136,0.291
+                 c3.456-2.919,6.921-5.813,10.4-8.687c1.478-1.218,2.159-2.876,1.792-5.024c-0.176-1.034,0.135-1.548,0.753-2.047
+                 c1.443-1.174,2.869-2.384,4.299-3.582c3.555-2.984,7.109-5.966,10.659-8.953c0.775-0.655,1.546-1.321,2.295-2.018
+                 c0.702-0.655,0.753-1.021,0.327-1.686c-0.444-0.688-0.72-0.698-1.397-0.12c-2.337,2-4.679,3.986-7.021,5.975
+                 c-3.118,2.648-6.235,5.3-9.36,7.941c-0.451,0.381-0.952,0.678-1.396,1.073c-0.427,0.38-0.755,0.352-1.28,0.138
+                 c-1.298-0.523-2.606-0.571-3.82,0.563c-1.319,1.228-2.702,2.351-4.077,3.484c-0.611,0.505-0.782,0.366-0.87-0.561
+                 c-0.699-7.38-4.848-10.399-9.367-11.312c-2.166-0.44-4.43-0.134-6.647-0.175c-0.578-0.014-12.53,0.04-14.073,0.001
+                 c-1.848-0.042-3.592,0.428-5.288,1.3c-4.183,2.158-5.773,5.884-5.878,10.39C44.79,89.855,44.906,98.479,44.96,107.095z"/>
+                 <path d="M84.764,99.888c0.073,1.166,0.047,2.358,0.295,3.481c0.108,0.514,0.684,1.082,1.175,1.296
+                 c0.73,0.313,1.571,0.459,2.36,0.461c19.254,0.02,42.278-0.006,61.531,0.043c1.837,0.006,3.274-1.342,3.272-3.583
+                 c-0.031-15.259-0.018-30.521-0.031-45.784c0-0.478-0.065-0.978-0.208-1.427c-0.474-1.509-1.479-2.049-2.948-2.042
+                 c-9.718,0.042-23.207,0.022-32.924,0.022c-9.811,0-19.619-0.003-29.428,0.006c-2.146,0.004-3.083,1.021-3.088,3.305
+                 c-0.006,4.627,0.017,9.254-0.026,13.883c-0.006,0.891,0.232,1.578,0.727,2.276c0.799,1.122,1.501,2.321,2.251,3.485
+                 c0.194,0.294,0.439,0.824,0.607,0.801c0.353-0.049,0.786-0.317,0.969-0.635c0.224-0.388,0.291-0.924,0.305-1.396
+                 c0.039-1.476,0.019-2.956,0.019-4.43c0-3.547-0.007-7.09,0.009-10.636c0.005-1.262,0.105-1.35,1.224-1.4
+                 c0.179-0.008,0.362-0.002,0.547-0.002c17.199-0.003,38.17-0.003,55.371-0.003c1.72,0,1.72,0.006,1.729,1.908
+                 c0.001,0.246,0,0.492,0,0.737c0,12.162,0.001,24.321,0.003,36.48c0,0.691-0.003,1.379,0,2.07c0.003,0.708-0.268,1.121-0.979,1.082
+                 c-0.272-0.014-0.546,0.006-0.819,0.006c-17.065,0-37.899,0-54.963,0c-0.366,0-0.729-0.019-1.095-0.002
+                 c-0.768,0.039-1.06-0.368-1.037-1.168c0.024-0.786,0.035-1.58-0.049-2.357c-0.087-0.795-0.357-0.905-0.984-0.472
+                 c-0.688,0.471-1.346,0.997-2.032,1.479C85.677,97.987,84.673,98.484,84.764,99.888z"/>
+                 <path d="M74.385,58.103c-0.079-6.271-4.615-9.645-9.104-9.583
+                 c-4.999,0.068-9.171,3.572-9.193,9.439c-0.244,5.518,4.275,9.628,9.049,9.631C70.054,67.592,74.453,63.502,74.385,58.103z"/>
+               </g>
+             </svg>
 
-    <!-- About the Atlas Section -->
-    <section id="about" class="container content-section">
-        <div class="row">
-                <h2>About the Atlas</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula nibh sit amet fermentum consectetur. Pellentesque ullamcorper leo urna, sed maximus justo pulvinar sit amet. Sed euismod a orci a vestibulum. Nulla aliquam elit elit, in rutrum ex convallis sed. Praesent pulvinar pulvinar nunc, eget posuere massa venenatis non. Curabitur dapibus nunc sit amet nibh convallis, vel eleifend turpis tempor. Integer vel aliquet odio. Vivamus a justo in dolor porta mattis. Vivamus nec eros quis erat viverra facilisis ut ut mi. Morbi eleifend dolor laoreet finibus interdum. Nam accumsan aliquet ante ac commodo. Proin dictum tincidunt lacus vitae viverra. Donec condimentum hendrerit bibendum. Proin finibus mauris vel velit commodo viverra. Suspendisse lobortis id odio sit amet varius.
-                </p>
+             <h3>View the Tutorials</h3>
+           </a>
+         </div>
+       </div>
+       <hr noshade>
+       <br>
+     </section>
 
-                <p>
-                    Pellentesque quis risus imperdiet, porta odio id, iaculis purus. Nam bibendum varius erat. Sed vitae velit mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi eget enim magna. Sed consectetur pellentesque porta. Maecenas id nisi vitae nisl pharetra feugiat vitae ut lacus. Sed faucibus augue sit amet leo euismod maximus.
-                </p>
-        </div>
-        <hr noshade>
-        <br>
+     <!-- About the Atlas Section -->
+     <section id="about" class="container content-section">
+      <div class="row">
+        <h2>About the Atlas</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula nibh sit amet fermentum consectetur. Pellentesque ullamcorper leo urna, sed maximus justo pulvinar sit amet. Sed euismod a orci a vestibulum. Nulla aliquam elit elit, in rutrum ex convallis sed. Praesent pulvinar pulvinar nunc, eget posuere massa venenatis non. Curabitur dapibus nunc sit amet nibh convallis, vel eleifend turpis tempor. Integer vel aliquet odio. Vivamus a justo in dolor porta mattis. Vivamus nec eros quis erat viverra facilisis ut ut mi. Morbi eleifend dolor laoreet finibus interdum. Nam accumsan aliquet ante ac commodo. Proin dictum tincidunt lacus vitae viverra. Donec condimentum hendrerit bibendum. Proin finibus mauris vel velit commodo viverra. Suspendisse lobortis id odio sit amet varius.
+        </p>
+
+        <p>
+          Pellentesque quis risus imperdiet, porta odio id, iaculis purus. Nam bibendum varius erat. Sed vitae velit mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi eget enim magna. Sed consectetur pellentesque porta. Maecenas id nisi vitae nisl pharetra feugiat vitae ut lacus. Sed faucibus augue sit amet leo euismod maximus.
+        </p>
+      </div>
+      <hr noshade>
+      <br>
     </section>
     <section id="partners-sponsors" class="container content-section">
-        <h4 class="text-left">A partnership between</h4>
-        <div class="row">
-            <div class="col-xs-5 col-md-4 col-lg-3">
-                <a href="http://www.minfof.cm/" target="_blank">
-                    <img src="img/mifw-logo-2.png" alt="MIFW Logo" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-5 col-md-4 col-lg-3">
-                <a href="http://www.wri.org/" target="_blank">
-                    <img src="img/wri-logo-2.png" alt="World Resources Institute" class="img-responsive">
-                </a>
-            </div>
-        </div>          
-        <br>
-
-        <h4 class="text-left">Supported by</h4>
-        <div class="row">
-            <div class="col-xs-4 col-lg-2 supporter">
-                <a href="http://www.usaid.gov/" target="_blank">
-                    <img src="img/usaid-logo.png" alt="USAID" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-lg-2 supporter">
-                <a href="https://www.gov.uk/government/organisations/department-for-international-development" target="_blank">
-                    <img src="img/ukaid-logo.png" alt="UKAID" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-lg-2 supporter">
-                <a href="https://www.regjeringen.no/en/dep/kld/id668/" target="_blank">
-                    <img src="img/nmce-logo.png" alt="Norway Ministry of the Environment" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-lg-2 supporter">
-                <a href="http://www.hexagongeospatial.com/" target="_blank">
-                    <img src="img/hexagon-logo.png" alt="Hexagon Geospatial" class="img-responsive">
-                </a>
-            </div>
-            <div class="col-xs-4 col-lg-2 supporter">
-                <a href="http://www.esri.com/" target="_blank">
-                    <img src="img/esri-logo.png" alt="ESRI" class="img-responsive">
-                </a>
-            </div>
+      <h4 class="text-left">A partnership between</h4>
+      <div class="row">
+        <div class="col-xs-5 col-md-4 col-lg-3">
+          <a href="http://www.minfof.cm/" target="_blank">
+            <img src="img/mifw-logo-2.png" alt="MIFW Logo" class="img-responsive">
+          </a>
         </div>
-        <br>
-        <hr noshade>          
+        <div class="col-xs-5 col-md-4 col-lg-3">
+          <a href="http://www.wri.org/" target="_blank">
+            <img src="img/wri-logo-2.png" alt="World Resources Institute" class="img-responsive">
+          </a>
+        </div>
+      </div>          
+      <br>
+
+      <h4 class="text-left">Supported by</h4>
+      <div class="row">
+        <div class="col-xs-4 col-lg-2 supporter">
+          <a href="http://www.usaid.gov/" target="_blank">
+            <img src="img/usaid-logo.png" alt="USAID" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-xs-4 col-lg-2 supporter">
+          <a href="https://www.gov.uk/government/organisations/department-for-international-development" target="_blank">
+            <img src="img/ukaid-logo.png" alt="UKAID" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-xs-4 col-lg-2 supporter">
+          <a href="https://www.regjeringen.no/en/dep/kld/id668/" target="_blank">
+            <img src="img/nmce-logo.png" alt="Norway Ministry of the Environment" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-xs-4 col-lg-2 supporter">
+          <a href="http://www.hexagongeospatial.com/" target="_blank">
+            <img src="img/hexagon-logo.png" alt="Hexagon Geospatial" class="img-responsive">
+          </a>
+        </div>
+        <div class="col-xs-4 col-lg-2 supporter">
+          <a href="http://www.esri.com/" target="_blank">
+            <img src="img/esri-logo.png" alt="ESRI" class="img-responsive">
+          </a>
+        </div>
+      </div>
+      <br>
+      <hr noshade>          
     </section>
 
     <!-- Social Share Icons-->
     <section id="social-share" class="container content-section text-center">
-        <h4>Share the Forest Atlas</h4>
-        <div class="row">
-            <div class="ssk-group ssk-grayscale">
-                <a href="" class="ssk ssk-facebook"></a>
-                <a href="" class="ssk ssk-twitter"></a>
-                <a href="" class="ssk ssk-google-plus"></a>
-                <a href="" class="ssk ssk-pinterest"></a>
-                <a href="" class="ssk ssk-linkedin"></a>
-                <a href="" class="ssk ssk-tumblr"></a>
-                <a href="" class="ssk ssk-email"></a>
-            </div>
+      <h4>Share the Forest Atlas</h4>
+      <div class="row">
+        <div class="ssk-group ssk-grayscale">
+          <a href="" class="ssk ssk-facebook"></a>
+          <a href="" class="ssk ssk-twitter"></a>
+          <a href="" class="ssk ssk-google-plus"></a>
+          <a href="" class="ssk ssk-pinterest"></a>
+          <a href="" class="ssk ssk-linkedin"></a>
+          <a href="" class="ssk ssk-tumblr"></a>
+          <a href="" class="ssk ssk-email"></a>
         </div>
-        <br>
+      </div>
+      <br>
     </section>
 
     <!-- Footer -->
     <footer>
-        <div class="container text-center">
-            <a href="http://www.wri.org">Terms of Service</a> | <a href="http://www.wri.org">Contact us</a>
-        </div>
+      <div class="container text-center">
+        <a href="http://www.wri.org">Terms of Service</a> | <a href="http://www.wri.org">Contact us</a>
+      </div>
     </footer>
-    
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
@@ -200,6 +280,6 @@
     <!-- Custom JavaScript -->
     <script src="js/main.js"></script>
 
-</body>
+  </body>
 
-</html>
+  </html>

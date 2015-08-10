@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 20px;
+    margin: 20px 0 20px;
     font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
     letter-spacing: 1px;
 }
@@ -40,9 +40,9 @@ p {
 
 a {
     color: #000;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 a .white-link {
@@ -356,4 +356,23 @@ body {
     align:right;
     padding: 0px;
     margin: 0px 0px 0px 0px;
+}
+
+.svg-icon-bg {
+  fill: #747474;
+  transition: 0.1s ease-in-out;
+  stroke-width: 3;
+  stroke: #fff;
+}
+
+.svg-icon-fill {
+  fill: #fff;
+  stroke: #fff;
+  stroke-width:0;
+}
+
+
+svg:hover, a:hover .svg-icon-bg {
+  fill: #f0ab00;
+  stroke: #fff;
 }
