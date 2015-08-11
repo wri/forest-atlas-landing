@@ -23,6 +23,16 @@ h6 {
     letter-spacing: 1px;
 }
 
+.subtitle-text {
+    display: none;
+}
+
+@media(min-width:991px) {
+    .subtitle-text {
+        display: block;
+    }
+}
+
 p {
     margin: 0 0 25px;
     font-size: 14px;
@@ -39,24 +49,23 @@ p {
 }
 
 a {
-    color: #000;
+    color: #fff;
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
 
-a .white-link {
-    color: #fff;
-}
-
 a:hover,
 a:focus {
     text-decoration: underline;
-    color: #000;
 }
 
 .header-link {
     color: #fff;
+}
+
+.footer-link {
+    color: #747474;
 }
 
 .light {
@@ -155,20 +164,20 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-    text-shadow: 2px 2px 2px #000;
-}
+/*    text-shadow: 2px 2px 2px #000;
+*/}
 
 .intro .intro-body .intro-text {
     font-size: 24px;
-    text-shadow: 2px 2px 2px #000;
-    text-align: center;
+/*    text-shadow: 2px 2px 2px #000;
+*/    text-align: center;
 }
 
 @media(min-width:767px) {
     .intro, .bcg {
         width: 100%;
         height: auto;
-        padding: 200px 0px;
+        padding: 150px 0px;
 
     }
 
@@ -273,7 +282,7 @@ a:focus {
     padding: 30px;
 }
 
-@media(min-width:992px) {
+@media(min-width:991px) {
     .module-icon {
         padding:65px 65px 20px 65px;
     }
@@ -359,10 +368,9 @@ body {
 }
 
 .svg-icon-bg {
-  fill: #747474;
+  fill: rgba(200,200,200,0.6);
   transition: 0.1s ease-in-out;
-  stroke-width: 3;
-  stroke: #fff;
+  stroke-width: 0;
 }
 
 .svg-icon-fill {

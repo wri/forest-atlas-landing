@@ -23,16 +23,6 @@ h6 {
     letter-spacing: 1px;
 }
 
-.subtitle-text {
-    display: none;
-}
-
-@media(min-width:767px) {
-    .subtitle-text {
-        display: block;
-    }
-}
-
 p {
     margin: 0 0 25px;
     font-size: 14px;
@@ -49,23 +39,24 @@ p {
 }
 
 a {
-    color: #fff;
+    color: #000;
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
 
+a .white-link {
+    color: #fff;
+}
+
 a:hover,
 a:focus {
     text-decoration: underline;
+    color: #000;
 }
 
 .header-link {
     color: #fff;
-}
-
-.footer-link {
-    color: #747474;
 }
 
 .light {
@@ -177,7 +168,7 @@ a:focus {
     .intro, .bcg {
         width: 100%;
         height: auto;
-        padding: 150px 0px;
+        padding: 200px 0px;
 
     }
 
@@ -370,7 +361,8 @@ body {
 .svg-icon-bg {
   fill: #747474;
   transition: 0.1s ease-in-out;
-  stroke-width: 0;
+  stroke-width: 3;
+  stroke: #fff;
 }
 
 .svg-icon-fill {
