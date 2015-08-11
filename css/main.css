@@ -373,6 +373,16 @@ body {
   stroke-width: 0;
 }
 
+.svg-coming-soon {
+    fill: #fff;
+    visibility: hidden;
+}
+
+.svg-icon-hide {
+    fill: #fff;
+    visibility: visible;
+}
+
 .svg-icon-fill {
   fill: #fff;
   stroke: #fff;
@@ -383,4 +393,12 @@ body {
 svg:hover, a:hover .svg-icon-bg {
   fill: #f0ab00;
   stroke: #fff;
+}
+
+svg:hover, a:hover .svg-icon-hide {
+    visibility: hidden;
+}
+
+svg:hover, a:hover .svg-coming-soon {
+    visibility: visible;
 }
