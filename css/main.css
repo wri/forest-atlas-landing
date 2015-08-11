@@ -55,8 +55,6 @@ a {
     transition: all 0s ease-in-out;
 }
 
-
-
 a:hover,
 a:focus {
     text-decoration: underline;
@@ -96,13 +94,13 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
-/*    text-shadow: 2px 2px 2px #000;
-*/}
+    text-shadow: 1px 1px 1px #747474;
+}
 
 .intro .intro-body .intro-text {
     font-size: 24px;
-/*    text-shadow: 2px 2px 2px #000;
-*/    text-align: center;
+    text-shadow: 1px 1px 1px #747474;
+    text-align: center;
 }
 
 @media(min-width:767px) {
@@ -208,6 +206,7 @@ body {
 }
 
 .svg-coming-soon {
+    stroke-width:0;
     fill: #fff;
     visibility: hidden;
 }
