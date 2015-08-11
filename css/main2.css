@@ -23,6 +23,16 @@ h6 {
     letter-spacing: 1px;
 }
 
+.subtitle-text {
+    display: none;
+}
+
+@media(min-width:767px) {
+    .subtitle-text {
+        display: block;
+    }
+}
+
 p {
     margin: 0 0 25px;
     font-size: 14px;
