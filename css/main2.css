@@ -39,24 +39,23 @@ p {
 }
 
 a {
-    color: #000;
+    color: #fff;
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
 }
 
-a .white-link {
-    color: #fff;
-}
-
 a:hover,
 a:focus {
     text-decoration: underline;
-    color: #000;
 }
 
 .header-link {
     color: #fff;
+}
+
+.footer-link {
+    color: #747474;
 }
 
 .light {
@@ -168,7 +167,7 @@ a:focus {
     .intro, .bcg {
         width: 100%;
         height: auto;
-        padding: 200px 0px;
+        padding: 150px 0px;
 
     }
 
@@ -361,8 +360,7 @@ body {
 .svg-icon-bg {
   fill: #747474;
   transition: 0.1s ease-in-out;
-  stroke-width: 3;
-  stroke: #fff;
+  stroke-width: 0;
 }
 
 .svg-icon-fill {
