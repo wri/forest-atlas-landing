@@ -60,12 +60,12 @@ a:focus {
     color: #fff;
 }
 
-.header-link {
-    color: #fff;
-}
-
 .footer-link {
     color: #747474;
+}
+
+a.footer-link:hover {
+    color: #f0ab00;
 }
 
 .light {
@@ -139,9 +139,10 @@ a:focus {
     padding: 10px 30px 30px 30px;
 }
 
-@media(min-width: @screen-lg-min) {
-    .intro {
-        padding-top: 60px;
+@media(min-width:992px) {
+
+    .module-icon {
+        padding: 10px 50px 30px 50px;
     }
 }
 
