@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+    height: 100%;
+}
 
 body {
     width: 100%;
@@ -5,11 +9,6 @@ body {
     font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
     color: #000;
     background-color: #fff;
-}
-
-html {
-    width: 100%;
-    height: 100%;
 }
 
 h1,
@@ -136,13 +135,7 @@ a:focus {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 30px;
-}
-
-@media(min-width:991px) {
-    .module-icon {
-        padding:65px 65px 20px 65px;
-    }
+    padding: 10px 30px 30px 30px;
 }
 
 @media(min-width: @screen-lg-min) {
@@ -197,44 +190,6 @@ body {
     align:right;
     padding: 0px;
     margin: 0px 0px 0px 0px;
-}
-
-.svg-icon-bg {
-  fill: rgba(200,200,200,0.6);
-  transition: 0s;
-  stroke-width: 0;
-}
-
-.svg-coming-soon {
-    stroke-width:0;
-    fill: #fff;
-    visibility: hidden;
-}
-
-.svg-icon-hide {
-    fill: #fff;
-    visibility: visible;
-}
-
-.svg-icon-fill {
-  fill: #fff;
-  stroke: #fff;
-  stroke-width:0;
-}
-
-
-svg:hover, a:hover .svg-icon-bg {
-  fill: #f0ab00;
-  stroke: #fff;
-}
-
-svg:hover, a:hover .svg-icon-hide {
-    visibility: hidden;
-}
-
-svg:hover, a:hover .svg-coming-soon {
-    visibility: visible;
-}
 
 
 .navbar-custom {
