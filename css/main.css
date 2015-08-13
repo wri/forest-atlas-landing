@@ -89,7 +89,6 @@ a.footer-link:hover {
 
 .intro .intro-body {
     vertical-align: middle;
-    margin-top: 40px;
 }
 
 .intro .intro-body .brand-heading {
@@ -107,6 +106,10 @@ a.footer-link:hover {
     .intro, .bcg {
         width: 100%;
         height: auto;
+    }
+
+    .intro .intro-body {
+        margin-top: 40px;
     }
 
     .intro .intro-body .brand-heading {
@@ -140,7 +143,6 @@ a.footer-link:hover {
 }
 
 @media(min-width:992px) {
-
     .module-icon {
         padding: 10px 50px 30px 50px;
     }
