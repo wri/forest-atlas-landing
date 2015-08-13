@@ -26,7 +26,7 @@ h6 {
     display: none;
 }
 
-@media(min-width:991px) {
+@media(min-width:992px) {
     .subtitle-text {
         display: block;
     }
@@ -57,6 +57,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: underline;
+    color: #fff;
 }
 
 .header-link {
@@ -87,8 +88,8 @@ a:focus {
 }
 
 .intro .intro-body {
-    display: table-cell;
     vertical-align: middle;
+    margin-top: 40px;
 }
 
 .intro .intro-body .brand-heading {
@@ -185,12 +186,6 @@ body {
 .language-menu {
     margin: 10px 0px;
 }
-
-.flag {
-    align:right;
-    padding: 0px;
-    margin: 0px 0px 0px 0px;
-
 
 .navbar-custom {
     margin-bottom: 0;
