@@ -1,0 +1,13 @@
+<svg id="chart-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70%" height="70%" viewBox="0 0 200 200" xml:space="preserve">
+  <g fill="rgba(200,200,200,0.6)">
+    <circle cx="100" cy="100" r="100" />
+  </g>
+  <g fill="#fff">
+    <polygon points="151.523,140.504 140.506,134.142 140.506,138.412 59.69,138.412 59.69,57.598 
+      63.961,57.598 57.599,46.58 51.238,57.598 55.437,57.598 55.437,142.666 140.506,142.666 140.506,146.865"/>
+      <rect x="64.652" y="83.827" display="inline" width="12.89" height="49.623"/>
+      <rect x="83.986" y="101.55" display="inline" width="12.89" height="31.9"/>
+      <rect x="103.319" y="59.016" display="inline" width="12.89" height="74.435"/>
+      <rect x="122.653" y="83.827" display="inline" width="12.89" height="49.623"/>
+    </g>
+  </svg>
