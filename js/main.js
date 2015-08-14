@@ -6,7 +6,7 @@
 
 
 
-//Disable hover events on touch/mobile devices
+// Disable hover events on touch/mobile devices
  document.addEventListener("DOMContentLoaded", init, false);
 
  function init() {
@@ -70,6 +70,7 @@ $(function() {
 //     }
 // });
 
+// Load social share buttons
 SocialShareKit.init();
 
 
