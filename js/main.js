@@ -5,20 +5,24 @@
  */
 
 
+
+// Disable hover events on touch/mobile devices
  document.addEventListener("DOMContentLoaded", init, false);
 
  function init() {
-
  	var image_1 = document.getElementById("map-icon");
  	var image_2 = document.getElementById("download-icon");
  	var image_3 = document.getElementById("analyze-icon");
- 	var image_4 = document.getElementByID("tutorial-icon");
+ 	var image_4 = document.getElementById("tutorial-icon");
+
+ 	
 
  	if (!("ontouchstart" in document.documentElement) && 
  		! (navigator.maxTouchPoints > 0) &&
  		! (navigator.msMaxTouchPoints > 0) ){
- 		image_1.addEventListener("mouseover", function(){
- 			this.src="map-icon-active.svg";}, false);
+
+	image_1.addEventListener("mouseover", function(){
+ 		this.src="map-icon-active.svg";}, false);
 
  	image_1.addEventListener("mouseout", function(){
  		this.src="map-icon.svg";}, false);
@@ -40,7 +44,6 @@
 
  	image_2.addEventListener("mouseout", function(){
  		this.src="tutorial-icon.svg";}, false);
-
  }   
 }
 
@@ -69,6 +72,7 @@ $(function() {
 //     }
 // });
 
+// Load social share buttons
 SocialShareKit.init();
 
 
