@@ -35,7 +35,6 @@
  	image_3.addEventListener("mouseout", function(){
  		this.src="analyze-icon.svg";}, false);
 
-
  	image_4.addEventListener("mouseover", function(){
  		this.src="tutorial-icon-active.svg";}, false);
 
