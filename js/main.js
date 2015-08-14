@@ -4,6 +4,25 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+ document.addEventListener("DOMContentLoaded", init, false);
+
+    function init() {
+
+        var image_1 = document.getElementById("image_1_nav");
+        var image_2 = document.getElementById("image_2_nav"); //.. etc... 
+
+        if (!("ontouchstart" in document.documentElement) && 
+            ! (navigator.maxTouchPoints > 0) &&
+            ! (navigator.msMaxTouchPoints > 0) ){
+            image_1.addEventListener("mouseover", function(){
+               this.src="image_1_red.png";}, false);
+
+            image_1.addEventListener("mouseout", function(){
+               this.src="image_1.png";}, false);             // .. etc... 
+        }   
+    }
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -30,3 +49,5 @@ $(function() {
 // });
 
 SocialShareKit.init();
+
+
