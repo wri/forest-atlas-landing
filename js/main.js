@@ -40,7 +40,7 @@
  	image_4.addEventListener("mouseover", function(){
  		this.src="img/coming-soon-icon.svg";}, false);
 
- 	image_2.addEventListener("mouseout", function(){
+ 	image_4.addEventListener("mouseout", function(){
  		this.src="img/tutorial-icon.svg";}, false);
  };   
 }
