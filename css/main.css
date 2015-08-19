@@ -22,12 +22,12 @@ h6 {
     letter-spacing: 1px;
 }
 
-h3.module-link {
+.module-link {
     font-size: 20px;
 }
 
 @media(min-width:768px) {
-    h3.module-link {
+    .module-link {
         font-size: 24px;
     }
     .brand-heading {
@@ -93,7 +93,7 @@ a.footer-link:hover {
     text-align: center;
     padding: 20px 0px 45px 0px;
     color: #fff;
-    background: url(../img/title-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/bg-14.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
