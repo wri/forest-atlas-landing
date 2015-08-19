@@ -140,8 +140,7 @@ a.footer-link:hover {
     }
 
     .supporter {
-        display: block;
-        padding: 0px 40px 0px 40px;
+        width: 14%;
     }
 }
 
