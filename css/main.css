@@ -59,10 +59,6 @@ a:focus {
     text-decoration: underline;
 }
 
-.header-link {
-    color: #fff;
-}
-
 .footer-link {
     color: #747474;
 }
@@ -100,6 +96,10 @@ a:focus {
     font-size: 24px;
     text-shadow: 1px 1px 1px #747474;
     text-align: center;
+}
+
+.lang-button {
+    padding: 15px 0px;
 }
 
 @media(min-width:767px) {
@@ -190,6 +190,31 @@ body {
     align:right;
     padding: 0px;
     margin: 0px 0px 0px 0px;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgba(200,200,200,0.6);
+    padding: 0;
+    border: 0;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+
+}
+
+.btn-default {
+    padding: 10px;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    color: #fff;
+    background-color: #f0ab00;
+}
 
 
 .navbar-custom {
@@ -260,29 +285,6 @@ body {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-}
-
-.btn {
-    text-transform: uppercase;
-    font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-default {
-    border: 1px solid #219ab3;
-    color: #219ab3;
-    background-color: transparent;
-}
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #219ab3;
-    outline: 0;
-    color: #000;
-    background-color: #219ab3;
 }
 
 .btn-circle {
