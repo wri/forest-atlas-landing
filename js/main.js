@@ -65,6 +65,6 @@ function langtoggle(l){
 }
     window.addEventListener("DOMContentLoaded", function() {
         langtoggle('en');
-    }, false);
+    }, iconHover, false);
 
 SocialShareKit.init();
