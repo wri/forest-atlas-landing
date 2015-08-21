@@ -76,6 +76,7 @@ a:focus {
     color: #fff;
     background: url(../img/title-bg.jpg) no-repeat bottom center scroll;
     background-color: #fff;
+    background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;

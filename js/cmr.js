@@ -21,7 +21,7 @@
     fr: {
         EngButton: "English",
         FrButton: "Français",
-        Title: "Atlas Interactif du Cameroun",
+        Title: "Atlas Forestier Interactif du Cameroun",
         SubTitle: "Un outil pratique pour comprendre et travailler dans le secteur forestier du Cameroun",
         MapModule: "Explorer le Plan",
         DownloadModule: "Télécharger les Données",
