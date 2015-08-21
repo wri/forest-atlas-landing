@@ -83,7 +83,6 @@ a:focus {
 }
 
 .intro .intro-body {
-    display: table-cell;
     vertical-align: middle;
 }
 
@@ -100,6 +99,12 @@ a:focus {
 
 .lang-button {
     padding: 15px 0px;
+}
+
+@media (min-width: 767px) {
+    .intro .intro-body {
+        margin-top: 40px;
+    }
 }
 
 @media(min-width:767px) {
