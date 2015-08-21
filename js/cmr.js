@@ -48,3 +48,16 @@ var link = {
         downloadLink: "http://cmr-data.atlas-forestier.org"
     }
 }
+
+var sponsors = {
+    cmrMin: {
+        href: "http://www.minfof.cm/",
+        src: "img/logo/mifw-logo.png",
+        alt: "MIFW Logo"
+    },
+    wri: {
+        href: "http://www.wri.org/",
+        src: "img/logo/wri-logo.png",
+        alt: "WRI Logo"
+    }
+}

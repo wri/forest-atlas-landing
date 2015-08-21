@@ -65,6 +65,37 @@ function langtoggle(l){
 }
     window.addEventListener("DOMContentLoaded", function() {
         langtoggle('en');
-    }, iconHover, false);
+    }, false);
+
+
+        window.addEventListener("DOMContentLoaded", function() {
+        generatePartnerLogos();
+    }, false);
 
 SocialShareKit.init();
+
+
+
+
+function generatePartnerLogos() {
+
+	var logoContainer = document.getElementById('PartnerLogos');
+
+	for(var key in sponsors) 
+	{
+		var newDiv = document.createElement('div');
+		var newLink = document.createElement('a');
+		var newImg = document.createElement('img');
+		newDiv.setAttribute('id',key);
+		newDiv.className += "col-xs-6" + " col-md-4" + " col-lg-3";
+		newLink.href = key["href"];
+		newImg.className += " img-responsive";
+		newImg.setAttribute('src',key["src"]);
+		newImg.setAttribute('alt',key["alt"]);
+
+
+		newLink.appendChild(newImg);
+		newDiv.appendChild(newLink);
+		logoContainer.appendChild(newDiv);
+	}
+}
