@@ -34,7 +34,19 @@
         Supporters: "Supporté par",
         Share: "Partager l'Atlas",
         Terms: "Conditions d’Utilisation",
-        Contact: "Contactez nous"
+        Contact: "Contactez nous"   
     }
 }
 
+var link = {
+    en: {
+        mapLink: "http://www.cmr.forest-atlas.org/map",
+        downloadLink: "http://www.cnn.com/",
+        analyzeLink: ""
+    },
+    fr: {
+        mapLink: "http://www.cmr.atlas-forestier.org/map/#v=atlas&l=fr&init=y",
+        downloadLink: "http://www.wikipedia.org/",
+        analyzeLink: ""
+    }
+}

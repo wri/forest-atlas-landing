@@ -49,13 +49,18 @@ $(function() {
 
 function langtoggle(l){
 	if (l == 'en' ){
-		local_lang = lang.en
+		local_lang = lang.en,
+		local_link = link.en
 	}
 	else if (l == 'fr') {
-		local_lang = lang.fr
+		local_lang = lang.fr,
+		local_link = link.fr
 	}	
 	for(var key in local_lang) {
-		document.getElementById(key).innerHTML = local_lang[key]
+		document.getElementById(key).innerHTML = local_lang[key];
+	}
+	for(var key in local_link) {
+		document.getElementById(key).href = local_link[key];
 	}
 }
     window.addEventListener("DOMContentLoaded", function() {
