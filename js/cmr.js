@@ -41,12 +41,10 @@
 var link = {
     en: {
         mapLink: "http://www.cmr.forest-atlas.org/map",
-        downloadLink: "http://www.cnn.com/",
-        analyzeLink: ""
+        downloadLink: "http://cmr-data.forest-atlas.or"
     },
     fr: {
         mapLink: "http://www.cmr.atlas-forestier.org/map/#v=atlas&l=fr&init=y",
-        downloadLink: "http://www.wikipedia.org/",
-        analyzeLink: ""
+        downloadLink: "http://cmr-data.atlas-forestier.org"
     }
 }
