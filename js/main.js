@@ -9,8 +9,6 @@ $(function() {
     });
 });
 
- document.addEventListener("DOMContentLoaded", iconHover, false);
-
  function iconHover() {
  	var image_1 = document.getElementById("map-icon");
  	var image_2 = document.getElementById("download-icon");
@@ -60,6 +58,6 @@ function langtoggle(l){
 }
     window.addEventListener("DOMContentLoaded", function() {
         langtoggle('en');
-    }, false);
+    }, iconHover, false);
 
 SocialShareKit.init();
