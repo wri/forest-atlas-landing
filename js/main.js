@@ -9,7 +9,9 @@ $(function() {
     });
 });
 
- function init() {
+ document.addEventListener("DOMContentLoaded", iconHover, false);
+
+ function iconHover() {
  	var image_1 = document.getElementById("map-icon");
  	var image_2 = document.getElementById("download-icon");
  	var image_3 = document.getElementById("analyze-icon");
@@ -43,7 +45,7 @@ $(function() {
  	image_4.addEventListener("mouseout", function(){
  		this.src="img/tutorial-icon.svg";}, false);
  };   
-}
+};
 
 function langtoggle(l){
 	if (l == 'en' ){
