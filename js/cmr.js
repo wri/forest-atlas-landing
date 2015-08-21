@@ -21,7 +21,7 @@
     fr: {
         EngButton: "English",
         FrButton: "Français",
-        Title: "Atlas Interactif du Cameroun",
+        Title: "Atlas Forestier Interactif du Cameroun",
         SubTitle: "Un outil pratique pour comprendre et travailler dans le secteur forestier du Cameroun",
         MapModule: "Explorer le Plan",
         DownloadModule: "Télécharger les Données",
@@ -46,5 +46,18 @@ var link = {
     fr: {
         mapLink: "http://www.cmr.atlas-forestier.org/map/#v=atlas&l=fr&init=y",
         downloadLink: "http://cmr-data.atlas-forestier.org"
+    }
+}
+
+var sponsors = {
+    cmrMin: {
+        href: "http://www.minfof.cm/",
+        src: "img/logo/mifw-logo.png",
+        alt: "MIFW Logo"
+    },
+    wri: {
+        href: "http://www.wri.org/",
+        src: "img/logo/wri-logo.png",
+        alt: "WRI Logo"
     }
 }
