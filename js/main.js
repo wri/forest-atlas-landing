@@ -1,14 +1,3 @@
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-	$('a.page-scroll').bind('click', function(event) {
-		var $anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-		}, 1000, 'easeInOutExpo');
-		event.preventDefault();
-	});
-});
-
 function iconHover() {
 	var image_1 = document.getElementById("map-icon");
 	var image_2 = document.getElementById("download-icon");
