@@ -48,6 +48,7 @@ $(function() {
 };
 
 function langtoggle(l){
+
 	if (l == 'en' ){
 		local_lang = lang.en,
 		local_link = link.en
