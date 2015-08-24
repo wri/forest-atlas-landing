@@ -49,7 +49,7 @@ var link = {
     }
 }
 
-var sponsors = {
+var partners = {
     cmrMin: {
         href: "http://www.minfof.cm/",
         src: "img/logo/mifw-logo.png",
@@ -61,3 +61,4 @@ var sponsors = {
         alt: "WRI Logo"
     }
 }
+

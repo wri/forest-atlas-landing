@@ -83,18 +83,18 @@ function generatePartnerLogos() {
 
 	var logoContainer = document.getElementById('PartnerLogos');
 
-	for(var key in sponsors) 
+	for(var key in partners) 
 	{
-		var sponsor = sponsors[key];
+		var partner = partners[key];
 		var newDiv = document.createElement('div');
 		var newLink = document.createElement('a');
 		var newImg = document.createElement('img');
 		newDiv.setAttribute('id',key);
 		newDiv.className += "col-xs-6" + " col-md-4" + " col-lg-3";
-		newLink.href = sponsor["href"];
+		newLink.href = partner["href"];
 		newImg.className += " img-responsive";
-		newImg.setAttribute('src',sponsor["src"]);
-		newImg.setAttribute('alt',sponsor["alt"]);
+		newImg.setAttribute('src',partner["src"]);
+		newImg.setAttribute('alt',partner["alt"]);
 
 		newLink.appendChild(newImg);
 		newDiv.appendChild(newLink);
