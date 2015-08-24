@@ -9,8 +9,6 @@ $(function() {
 	});
 });
 
-document.addEventListener("DOMContentLoaded", iconHover, false);
-
 function iconHover() {
 	var image_1 = document.getElementById("map-icon");
 	var image_2 = document.getElementById("download-icon");
@@ -52,8 +50,6 @@ function iconHover() {
 		this.src="img/tutorial-icon.svg";}, false);
 	};   
 };
-
-
 
 // Set language and update URL hash
 function langtoggle(l){
@@ -129,17 +125,25 @@ function generateSponsorLogos() {
 		newLink.href = sponsor["href"];
 		newLink.target = "_blank";
 		newImg.className += " img-responsive";
+
 		newImg.setAttribute('src',sponsor["src"]);
 		newImg.setAttribute('alt',sponsor["alt"]);
 		
 		newLink.appendChild(newImg);
 		newDiv.appendChild(newLink);
 		sponsorLogoContainer.appendChild(newDiv);
-	}
+
+		// newImg.addEventListener("mouseover", function(){
+		// 	this.setAttribute('src', sponsor["srcActive"])}, false);
+
+		// newImg.addEventListener("mouseout", function(){
+		// 	this.setAttribute('src', sponsor["src"])}, false);
+}
 };
 
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
+	iconHover();
 	generatePartnerLogos();
 	generateSponsorLogos();
 }, false);
