@@ -30,13 +30,13 @@ h3 {
     display: none;
 }
 
-
-
 @media(min-width:991px) {
     .subtitle-text {
         display: block;
     }
 }
+
+
 
 p {
     margin: 0 0 25px;
@@ -148,6 +148,16 @@ a:focus {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 20px 0px 20px;
+}
+
+.inactive {
+    display: none;
+}
+
+@media(min-width:767px) {
+    .inactive {
+        display: block;
+    }
 }
 
 @media(min-width: @screen-lg-min) {
