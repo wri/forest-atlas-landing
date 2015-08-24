@@ -22,15 +22,32 @@ h6 {
     letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
 h3 {
     font-size: 22px;
 }
 
+=======
+.module-link {
+    font-size: 20px;
+}
+
+@media(min-width:768px) {
+    .module-link {
+        font-size: 24px;
+    }
+    .brand-heading {
+        font-size: 40px;
+    }
+}
+
+
+>>>>>>> 7b137f03acfdf79686f70378df3a9c5b81242ac6
 .subtitle-text {
     display: none;
 }
 
-@media(min-width:991px) {
+@media(min-width:992px) {
     .subtitle-text {
         display: block;
     }
@@ -63,10 +80,18 @@ a {
 a:hover,
 a:focus {
     text-decoration: underline;
+<<<<<<< HEAD
+=======
+    color: #fff;
+>>>>>>> 7b137f03acfdf79686f70378df3a9c5b81242ac6
 }
 
 .footer-link {
     color: #747474;
+}
+
+a.footer-link:hover {
+    color: #f0ab00;
 }
 
 .light {
@@ -80,7 +105,7 @@ a:focus {
     text-align: center;
     padding: 20px 0px 45px 0px;
     color: #fff;
-    background: url(../img/title-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/bg-14.jpg) no-repeat bottom center scroll;
     background-color: #fff;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -94,7 +119,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 1px 1px 1px #747474;
 }
 
@@ -118,6 +143,10 @@ a:focus {
     .intro, .bcg {
         width: 100%;
         height: auto;
+    }
+
+    .intro .intro-body {
+        margin-top: 40px;
     }
 
     .intro .intro-body .brand-heading {
@@ -160,11 +189,22 @@ a:focus {
     }
 }
 
-@media(min-width: @screen-lg-min) {
-    .intro {
-        padding-top: 60px;
+@media(min-width:992px) {
+    .module-icon {
+        padding: 10px 50px 30px 50px;
     }
 }
+
+.inactive {
+    display: none;
+}
+
+@media(min-width:768px) {
+    .inactive {
+        display: block;
+    }
+}
+
 
 footer {
     padding-top: 20px;
@@ -208,6 +248,7 @@ body {
     margin: 10px 0px;
 }
 
+<<<<<<< HEAD
 .flag {
     align:right;
     padding: 0px;
@@ -215,6 +256,11 @@ body {
 }
 
 .btn {
+=======
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+>>>>>>> 7b137f03acfdf79686f70378df3a9c5b81242ac6
     text-transform: uppercase;
     font-family: "Arial Narrow",Arial,Helvetica,sans-serif;
     font-weight: 700;
