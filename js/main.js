@@ -48,6 +48,7 @@ $(function() {
 };
 
 function langtoggle(l){
+
 	if (l == 'en' ){
 		local_lang = lang.en,
 		local_link = link.en
@@ -63,6 +64,7 @@ function langtoggle(l){
 		document.getElementById(key).href = local_link[key];
 	}
 }
+
     window.addEventListener("DOMContentLoaded", function() {
         langtoggle('en');
     }, false);
@@ -83,19 +85,20 @@ function generatePartnerLogos() {
 
 	for(var key in sponsors) 
 	{
+		var sponsor = sponsors[key];
 		var newDiv = document.createElement('div');
 		var newLink = document.createElement('a');
 		var newImg = document.createElement('img');
 		newDiv.setAttribute('id',key);
 		newDiv.className += "col-xs-6" + " col-md-4" + " col-lg-3";
-		newLink.href = key["href"];
+		newLink.href = sponsor["href"];
 		newImg.className += " img-responsive";
-		newImg.setAttribute('src',key["src"]);
-		newImg.setAttribute('alt',key["alt"]);
-
+		newImg.setAttribute('src',sponsor["src"]);
+		newImg.setAttribute('alt',sponsor["alt"]);
 
 		newLink.appendChild(newImg);
 		newDiv.appendChild(newLink);
 		logoContainer.appendChild(newDiv);
 	}
 }
+
