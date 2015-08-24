@@ -9,8 +9,6 @@ $(function() {
 	});
 });
 
-document.addEventListener("DOMContentLoaded", iconHover, false);
-
 function iconHover() {
 	var image_1 = document.getElementById("map-icon");
 	var image_2 = document.getElementById("download-icon");
@@ -21,20 +19,33 @@ function iconHover() {
 		! (navigator.maxTouchPoints > 0) &&
 		! (navigator.msMaxTouchPoints > 0) ){
 
-		image_1.addEventListener("mouseover", function(){
-			this.src="img/map-icon-active.svg";}, false);
+	image_1.addEventListener("mouseover", function(){
+		this.src="img/map-icon-active.svg";}, false);
 	image_1.addEventListener("mouseout", function(){
 		this.src="img/map-icon.svg";}, false);
 	image_2.addEventListener("mouseover", function(){
 		this.src="img/download-icon-active.svg";}, false);
 	image_2.addEventListener("mouseout", function(){
 		this.src="img/download-icon.svg";}, false);
+
 	image_3.addEventListener("mouseover", function(){
-		this.src="img/coming-soon-icon.svg";}, false);
+		if (window.location.hash == "#l=en") {
+			this.src="img/coming-soon-icon.svg";
+		}
+		else {
+			this.src="img/a-venir-icon.svg"
+		}
+	}, false);
 	image_3.addEventListener("mouseout", function(){
 		this.src="img/analyze-icon.svg";}, false);
 	image_4.addEventListener("mouseover", function(){
-		this.src="img/coming-soon-icon.svg";}, false);
+		if (window.location.hash == "#l=en") {
+			this.src="img/coming-soon-icon.svg";
+		}
+		else {
+			this.src="img/a-venir-icon.svg"
+		}
+	}, false);
 	image_4.addEventListener("mouseout", function(){
 		this.src="img/tutorial-icon.svg";}, false);
 	};   
@@ -114,20 +125,25 @@ function generateSponsorLogos() {
 		newLink.href = sponsor["href"];
 		newLink.target = "_blank";
 		newImg.className += " img-responsive";
+
 		newImg.setAttribute('src',sponsor["src"]);
 		newImg.setAttribute('alt',sponsor["alt"]);
 		
 		newLink.appendChild(newImg);
 		newDiv.appendChild(newLink);
 		sponsorLogoContainer.appendChild(newDiv);
-	}
+
+		// newImg.addEventListener("mouseover", function(){
+		// 	this.setAttribute('src', sponsor["srcActive"])}, false);
+
+		// newImg.addEventListener("mouseout", function(){
+		// 	this.setAttribute('src', sponsor["src"])}, false);
+}
 };
-
-
-
 
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
+	iconHover();
 	generatePartnerLogos();
 	generateSponsorLogos();
 }, false);
