@@ -64,6 +64,7 @@ function langtoggle(l){
 		document.getElementById(key).href = local_link[key];
 	}
 }
+
     window.addEventListener("DOMContentLoaded", function() {
         langtoggle('en');
     }, false);
