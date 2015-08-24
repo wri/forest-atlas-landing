@@ -23,30 +23,22 @@ function iconHover() {
 
 		image_1.addEventListener("mouseover", function(){
 			this.src="img/map-icon-active.svg";}, false);
-
 	image_1.addEventListener("mouseout", function(){
 		this.src="img/map-icon.svg";}, false);
-
 	image_2.addEventListener("mouseover", function(){
 		this.src="img/download-icon-active.svg";}, false);
-
 	image_2.addEventListener("mouseout", function(){
 		this.src="img/download-icon.svg";}, false);
-
 	image_3.addEventListener("mouseover", function(){
 		this.src="img/coming-soon-icon.svg";}, false);
-
 	image_3.addEventListener("mouseout", function(){
 		this.src="img/analyze-icon.svg";}, false);
-
 	image_4.addEventListener("mouseover", function(){
 		this.src="img/coming-soon-icon.svg";}, false);
-
 	image_4.addEventListener("mouseout", function(){
 		this.src="img/tutorial-icon.svg";}, false);
-};   
+	};   
 };
-
 
 // Set language and update URL hash
 function langtoggle(l){
@@ -56,12 +48,13 @@ function langtoggle(l){
 		local_link = link.en
 		window.location.hash = "#l=en";
 	}
+
 	else if (l == 'fr') {
 		local_lang = lang.fr,
 		local_link = link.fr
 		window.location.hash = "#l=fr";
-
 	}	
+
 	for(var key in local_lang) {
 		document.getElementById(key).innerHTML = local_lang[key];
 	}
@@ -70,11 +63,11 @@ function langtoggle(l){
 	}
 }
 
+
 //Check URL hash; set appropriate page language. Defaults to English
 function loadLanguage() {
 
 	var hash = window.location.hash;
-
 	if (hash == '' || hash == '#l=en') {
 		langtoggle('en')
 	}
@@ -106,9 +99,37 @@ function generatePartnerLogos() {
 	}
 }
 
+function generateSponsorLogos() {
+
+	var sponsorLogoContainer = document.getElementById('SponsorLogos');
+
+	for(var key in sponsors) 
+	{
+		var sponsor = sponsors[key];
+		var newDiv = document.createElement('div');
+		var newLink = document.createElement('a');
+		var newImg = document.createElement('img');
+		newDiv.setAttribute('id',key);
+		newDiv.className += "col-xs-4" + " col-lg-2" + " supporter";
+		newLink.href = sponsor["href"];
+		newLink.target = "_blank";
+		newImg.className += " img-responsive";
+		newImg.setAttribute('src',sponsor["src"]);
+		newImg.setAttribute('alt',sponsor["alt"]);
+		
+		newLink.appendChild(newImg);
+		newDiv.appendChild(newLink);
+		sponsorLogoContainer.appendChild(newDiv);
+	}
+};
+
+
+
+
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
 	generatePartnerLogos();
+	generateSponsorLogos();
 }, false);
 
 SocialShareKit.init();

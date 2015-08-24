@@ -40,11 +40,11 @@
 
 var link = {
     en: {
-        mapLink: "http://www.cmr.forest-atlas.org/map",
-        downloadLink: "http://cmr-data.forest-atlas.or"
+        mapLink: "http://cmr.forest-atlas.org/map",
+        downloadLink: "http://cmr-data.forest-atlas.org"
     },
     fr: {
-        mapLink: "http://www.cmr.atlas-forestier.org/map/#v=atlas&l=fr&init=y",
+        mapLink: "http://cmr.atlas-forestier.org/map/#v=atlas&l=fr&init=y",
         downloadLink: "http://cmr-data.atlas-forestier.org"
     }
 }
@@ -62,3 +62,41 @@ var partners = {
     }
 }
 
+var sponsors = {
+    gfw: {
+        href: "http://globalforestwatch.org/",
+        src: "img/logo/gfw-logo-bw.png",
+        srcActive: "img/logo/gfw-logo.png",
+        alt: "GFW"
+    },
+    usaid: {
+        href: "http://www.usaid.gov/",
+        src: "img/logo/usaid-logo-bw.png",
+        srcActive: "img/logo/usaid-logo.png",
+        alt: "USAID"
+    },
+    ukaid: {
+        href: "https://www.gov.uk/government/organisations/department-for-international-development",
+        src: "img/logo/ukaid-logo-bw.png",
+        srcActive: "img/logo/ukaid-logo.png",
+        alt: "UKAID"
+    },
+    nmce: {
+        href: "https://www.regjeringen.no/en/dep/kld/id668/",
+        src: "img/logo/nmce-logo-bw.png",
+        srcActive: "img/logo/nmce-logo.png",
+        alt: "Norway Ministry of the Environment"
+    },
+    hexagon: {
+        href: "http://www.hexagongeospatial.com/",
+        src: "img/logo/hexagon-logo-bw.png",
+        srcActive: "img/logo/hexagon-logo.png",
+        alt: "Hexagon Geospatial"
+    },
+    esri: {
+        href: "http://www.esri.com/",
+        src: "img/logo/esri-logo-bw.png",
+        srcActive: "img/logo/esri-logo.png",
+        alt: "Esri"
+    }
+}
