@@ -80,8 +80,6 @@ a:focus {
     text-align: center;
     padding: 20px 0px 45px 0px;
     color: #fff;
-    background: url(../img/title-bg.jpg) no-repeat bottom center scroll;
-    background-color: #fff;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;

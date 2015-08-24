@@ -1,14 +1,3 @@
-// jQuery for page scrolling feature - requires jQuery Easing plugin
-$(function() {
-	$('a.page-scroll').bind('click', function(event) {
-		var $anchor = $(this);
-		$('html, body').stop().animate({
-			scrollTop: $($anchor.attr('href')).offset().top
-		}, 1000, 'easeInOutExpo');
-		event.preventDefault();
-	});
-});
-
 function iconHover() {
 	var image_1 = document.getElementById("map-icon");
 	var image_2 = document.getElementById("download-icon");
@@ -87,6 +76,25 @@ function loadLanguage() {
 	}
 }
 
+function generateFlag() {
+
+	var flagContainer = document.getElementById('flag');
+
+	var newLink = document.createElement('a');
+	var newImg = document.createElement('img');
+
+	newLink.href = flag["href"];
+	newImg.setAttribute('src',flag["src"]);
+	newImg.className += " img-responsive";
+
+	newLink.appendChild(newImg);
+	flagContainer.appendChild(newLink);
+}
+
+function generateBcgImg() {
+document.getElementById('intro').style.background = bcgImage["src"];
+}
+
 function generatePartnerLogos() {
 
 	var logoContainer = document.getElementById('PartnerLogos');
@@ -143,6 +151,8 @@ function generateSponsorLogos() {
 
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
+	generateFlag();
+	generateBcgImg();
 	iconHover();
 	generatePartnerLogos();
 	generateSponsorLogos();
