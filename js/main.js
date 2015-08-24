@@ -91,6 +91,10 @@ function generateFlag() {
 	flagContainer.appendChild(newLink);
 }
 
+function generateBcgImg() {
+document.getElementById('intro').style.background = bcgImage["src"];
+}
+
 function generatePartnerLogos() {
 
 	var logoContainer = document.getElementById('PartnerLogos');
@@ -148,6 +152,7 @@ function generateSponsorLogos() {
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
 	generateFlag();
+	generateBcgImg();
 	iconHover();
 	generatePartnerLogos();
 	generateSponsorLogos();
