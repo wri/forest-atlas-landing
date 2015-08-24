@@ -87,6 +87,21 @@ function loadLanguage() {
 	}
 }
 
+function generateFlag() {
+
+	var flagContainer = document.getElementById('flag');
+
+	var newLink = document.createElement('a');
+	var newImg = document.createElement('img');
+
+	newLink.href = flag["href"];
+	newImg.setAttribute('src',flag["src"]);
+	newImg.className += " img-responsive";
+
+	newLink.appendChild(newImg);
+	flagContainer.appendChild(newLink);
+}
+
 function generatePartnerLogos() {
 
 	var logoContainer = document.getElementById('PartnerLogos');
@@ -143,6 +158,7 @@ function generateSponsorLogos() {
 
 window.addEventListener("DOMContentLoaded", function() {
 	loadLanguage();
+	generateFlag();
 	iconHover();
 	generatePartnerLogos();
 	generateSponsorLogos();

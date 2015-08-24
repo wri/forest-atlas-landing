@@ -38,6 +38,11 @@
     }
 }
 
+var flag = {
+    href: "http://www.minfof.cm/",
+    src: "img/flag/flag-cameroon.png",
+}
+
 var link = {
     en: {
         mapLink: "http://cmr.forest-atlas.org/map",
