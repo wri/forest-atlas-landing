@@ -44,7 +44,7 @@ var flag = {
 }
 
 var bcgImage = {
-    src: "url(img/title-bg-1.jpg) no-repeat bottom center scroll"
+    src: "url(img/title-bg-1.jpg) no-repeat center center scroll"
 }
 
 var link = {
