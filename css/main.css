@@ -34,6 +34,11 @@ h3 {
     .subtitle-text {
         display: block;
     }
+
+    .intro .intro-body .brand-heading {
+        font-size: 60px;
+    }
+
 }
 
 
@@ -78,7 +83,7 @@ a:focus {
     width: 100%;
     height: auto;
     text-align: center;
-    padding: 20px 0px 45px 0px;
+    padding: 20px 0px;
     color: #fff;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -92,7 +97,6 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
     text-shadow: 1px 1px 1px #747474;
 }
 
@@ -110,10 +114,6 @@ a:focus {
     .intro, .bcg {
         width: 100%;
         height: auto;
-    }
-
-    .intro .intro-body .brand-heading {
-        font-size: 60px;
     }
 
     .intro .intro-body .intro-text {
@@ -151,12 +151,12 @@ a:focus {
     }
 }
 
-@media(min-width: @screen-lg-min) {
+/*@media(min-width: @screen-lg-min) {
     .intro {
         padding-top: 60px;
     }
 }
-
+*/
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -192,7 +192,6 @@ body {
 
 .title-background {
     background-color: rgba(200,200,200,0.4);
-    margin: 0px 0px 20px 0px;
 }
 
 .language-menu {
