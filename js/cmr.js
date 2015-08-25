@@ -46,6 +46,7 @@ var flag = {
 var bcgImage = {
     src: "url(img/title-bg-1.jpg) no-repeat bottom left scroll"
 }
+
 var link = {
     en: {
         mapLink: "http://cmr.forest-atlas.org/map",
