@@ -40,7 +40,7 @@ function iconHover() {
 	};   
 };
 
-// Set language and update URL hash
+//Set language and update URL hash
 function langtoggle(l){
 
 	if (l == 'en' ){
@@ -63,7 +63,6 @@ function langtoggle(l){
 	}
 }
 
-
 //Check URL hash; set appropriate page language. Defaults to English
 function loadLanguage() {
 
@@ -76,6 +75,7 @@ function loadLanguage() {
 	}
 }
 
+//Generate flag link/image from country JS file
 function generateFlag() {
 
 	var flagContainer = document.getElementById('flag');
@@ -91,10 +91,12 @@ function generateFlag() {
 	flagContainer.appendChild(newLink);
 }
 
+//Generate background image from country JS file
 function generateBcgImg() {
 document.getElementById('intro').style.background = bcgImage["src"];
 }
 
+//Generate partner logos from country JS file
 function generatePartnerLogos() {
 
 	var logoContainer = document.getElementById('PartnerLogos');
@@ -118,6 +120,7 @@ function generatePartnerLogos() {
 	}
 }
 
+//Generate sponsor logos from country JS file
 function generateSponsorLogos() {
 
 	var sponsorLogoContainer = document.getElementById('SponsorLogos');
@@ -133,7 +136,6 @@ function generateSponsorLogos() {
 		newLink.href = sponsor["href"];
 		newLink.target = "_blank";
 		newImg.className += " img-responsive";
-
 		newImg.setAttribute('src',sponsor["src"]);
 		newImg.setAttribute('alt',sponsor["alt"]);
 		
@@ -141,11 +143,14 @@ function generateSponsorLogos() {
 		newDiv.appendChild(newLink);
 		sponsorLogoContainer.appendChild(newDiv);
 
-		// newImg.addEventListener("mouseover", function(){
-		// 	this.setAttribute('src', sponsor["srcActive"])}, false);
+		//Trigger hover events
+		newImg.addEventListener("mouseover", function(){
+			var divSource = $(this).closest('div').attr('id');
+			this.setAttribute('src', sponsors[divSource]["srcActive"])}, false);
 
-		// newImg.addEventListener("mouseout", function(){
-		// 	this.setAttribute('src', sponsor["src"])}, false);
+		newImg.addEventListener("mouseout", function(){
+			var divSource = $(this).closest('div').attr('id');
+			this.setAttribute('src', sponsors[divSource]["src"])}, false);;
 }
 };
 
