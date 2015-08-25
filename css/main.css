@@ -11,6 +11,13 @@ body {
     background-color: #fff;
 }
 
+/* Firefox */
+@-moz-document url-prefix() {
+  body { 
+    font-stretch: condensed;    }
+}
+
+
 h1,
 h2,
 h3,
