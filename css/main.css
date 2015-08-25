@@ -41,7 +41,6 @@ h3 {
 }
 
 
-
 p {
     margin: 0 0 25px;
     font-size: 14px;
@@ -101,6 +100,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     text-shadow: 1px 1px 1px #747474;
+    font-size: 44px;
 }
 
 .intro .intro-body .intro-text {
