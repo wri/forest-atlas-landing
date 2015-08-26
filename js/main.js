@@ -1,42 +1,47 @@
 function iconHover() {
-	var image_1 = document.getElementById("map-icon");
-	var image_2 = document.getElementById("download-icon");
-	var image_3 = document.getElementById("analyze-icon");
-	var image_4 = document.getElementById("tutorial-icon");
+	var image1 = document.getElementById("map-icon");
+	var image2 = document.getElementById("download-icon");
+	var image3 = document.getElementById("analyze-icon");
+	var image4 = document.getElementById("tutorial-icon");
+
+	var link1 = document.getElementById("mapLink");
+	var link2 = document.getElementById("downloadLink");
+	var link3 = document.getElementById("analyzeLink");
+	var link4 = document.getElementById("tutorialLink");
 
 	if (!("ontouchstart" in document.documentElement) && 
 		! (navigator.maxTouchPoints > 0) &&
 		! (navigator.msMaxTouchPoints > 0) ){
 
-	image_1.addEventListener("mouseover", function(){
-		this.src="img/map-icon-active.svg";}, false);
-	image_1.addEventListener("mouseout", function(){
-		this.src="img/map-icon.svg";}, false);
-	image_2.addEventListener("mouseover", function(){
-		this.src="img/download-icon-active.svg";}, false);
-	image_2.addEventListener("mouseout", function(){
-		this.src="img/download-icon.svg";}, false);
+	link1.addEventListener("mouseover", function(){
+		image1.src="img/map-icon-active.svg";}, false);
+	link1.addEventListener("mouseout", function(){
+		image1.src="img/map-icon.svg";}, false);
+	link2.addEventListener("mouseover", function(){
+		image2.src="img/download-icon-active.svg";}, false);
+	link2.addEventListener("mouseout", function(){
+		image2.src="img/download-icon.svg";}, false);
 
-	image_3.addEventListener("mouseover", function(){
+	link3.addEventListener("mouseover", function(){
 		if (window.location.hash == "#l=en") {
-			this.src="img/coming-soon-icon.svg";
+			image3.src="img/coming-soon-icon.svg";
 		}
 		else {
-			this.src="img/a-venir-icon.svg"
+			image3.src="img/a-venir-icon.svg"
 		}
 	}, false);
-	image_3.addEventListener("mouseout", function(){
-		this.src="img/analyze-icon.svg";}, false);
-	image_4.addEventListener("mouseover", function(){
+	link3.addEventListener("mouseout", function(){
+		image3.src="img/analyze-icon.svg";}, false);
+	link4.addEventListener("mouseover", function(){
 		if (window.location.hash == "#l=en") {
-			this.src="img/coming-soon-icon.svg";
+			image4.src="img/coming-soon-icon.svg";
 		}
 		else {
-			this.src="img/a-venir-icon.svg"
+			image4.src="img/a-venir-icon.svg"
 		}
 	}, false);
-	image_4.addEventListener("mouseout", function(){
-		this.src="img/tutorial-icon.svg";}, false);
+	link4.addEventListener("mouseout", function(){
+		image4.src="img/tutorial-icon.svg";}, false);
 	};   
 };
 

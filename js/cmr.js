@@ -9,8 +9,10 @@
         AnalyzeModule: "Analyze the Data",
         TutorialModule: "View the Tutorials",
         AboutTitle: "About the Atlas",
-        AboutText1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vehicula nibh sit amet fermentum consectetur. Pellentesque ullamcorper leo urna, sed maximus justo pulvinar sit amet. Sed euismod a orci a vestibulum. Nulla aliquam elit elit, in rutrum ex convallis sed. Praesent pulvinar pulvinar nunc, eget posuere massa venenatis non. Curabitur dapibus nunc sit amet nibh convallis, vel eleifend turpis tempor. Integer vel aliquet odio. Vivamus a justo in dolor porta mattis. Vivamus nec eros quis erat viverra facilisis ut ut mi. Morbi eleifend dolor laoreet finibus interdum. Nam accumsan aliquet ante ac commodo. Proin dictum tincidunt lacus vitae viverra. Donec condimentum hendrerit bibendum. Proin finibus mauris vel velit commodo viverra. Suspendisse lobortis id odio sit amet varius.",
-        AboutText2: "Pellentesque quis risus imperdiet, porta odio id, iaculis purus. Nam bibendum varius erat. Sed vitae velit mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi eget enim magna. Sed consectetur pellentesque porta. Maecenas id nisi vitae nisl pharetra feugiat vitae ut lacus. Sed faucibus augue sit amet leo euismod maximus.",
+        AboutText1: "The Interactive Forest Atlas of Cameroon is a living, dynamic forest monitoring system that provides unbiased and up-to-date information on the Cameroonian forest sector. Built on a geographic information system (GIS) platform, the atlas aims to strengthen forest management and land use planning by bringing information on all major land use categories onto the same standardized platform.",
+        AboutText2: "The underlying Forest Atlas database is supported and kept up-to-date by the Ministry of Forestry and Wildlife (MINFOF) and the World Resources Institute (WRI), releasing new information as it becomes available via this mapping application. Other publications are released periodically and can be found in the download section.",
+        AboutText3: "The Interactive Forest Atlas overcomes a key data challenge by integrating forest management classes with forest cover extent and change data from Global Forest Watch’s near-real-time monitoring system. With a simple click, users can run complex analysis and explore the most up-to-date land cover changes within a variety of land allocations. To learn about the wide range of functionalities, visit the online tutorial.",
+        AboutText4: "Unless otherwise noted, data of the Interactive Forest Atlas are licensed under a Creative Commons Attribution 4.0 International License. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made. When displaying and citing the data, use the appropriate credit as listed for the corresponding dataset in the download section.",
         PartnerTitle: "A partnership between",
         SupporterTitle: "Supported by",
         Share: "Share the Forest Atlas",
@@ -44,7 +46,7 @@ var flag = {
 }
 
 var bcgImage = {
-    src: "url(img/title-bg-1.jpg) no-repeat bottom left scroll"
+    src: "url(img/title-bg-1.jpg) no-repeat center center scroll"
 }
 
 var link = {
