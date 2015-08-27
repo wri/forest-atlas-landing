@@ -156,8 +156,15 @@ a:focus {
 }
 
 .content-section {
-    padding: 20px 30px 20px 30px;
+    padding: 20px 0px;
 }   
+
+@media(min-width: 767px) {
+    .bodyRow {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
 
 .module-icon {
     display: block;
@@ -166,7 +173,7 @@ a:focus {
 }
 
 @media(min-width: 991px) {
-        .module-icon {
+    .module-icon {
         padding: 20px 45px 10px 45px;
     }
 }
