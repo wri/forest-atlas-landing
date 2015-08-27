@@ -27,7 +27,7 @@
         AnalyzeModule: "Analyzer les Données",
         TutorialModule: "Regarder les Didacticiels",
         AboutTitle: "A Propos l'Atlas",
-        AboutText: "<p>L’Atlas forestier interactif de la République Démocratique du Congo est un système de suivi forestier dynamique qui fournit des informations crédibles et actualisées sur le secteur forestier a la RDC. Construit sur une plateforme SIG (Système d’Information Géographique), l’Atlas a pour but de renforcer la gestion des forêts et la planification de l’utilisation des terres en réunissant sur une même plateforme standardisée les informations sur toutes les principales catégories d’utilisation des terres.</p><p>La base de données sous-jacente de l’Atlas forestier est géré et mis à jour par le Ministère de l’Environnement et Développement Durable et le World Resources Institute (WRI), apportant de nouvelles informations à travers une <a class='bodyLink' href='cmr.atlas-forestier.org/map/#v=atlas&l=fr&init=y'>application cartographique</a> lorsque celles sont disponibles. D’autres publications sont produites périodiquement et peuvent être trouvés dans la <a class='bodyLink' href='http://cmr-data.atlas-forestier.org'>section téléchargement</a>.</p><p>L’Atlas Forestier Interactif répond à un défi en données clés en combinant les classes de gestion des forêts avec les données sur l’étendu et les changements de la couverture forestière provenant du système de suivi en temps quasi-réel <a class='bodyLink' href='http://www.globalforestwatch.org/#googtrans(en|fr)'>Global Forest Watch</a>. Par un simple clic, les utilisateurs peuvent effectuer des analyses complexes et explorer les changements de la couverture terrestre les plus récentes au sein d’une variété d’affectation des terres. Pour apprendre la large gamme de fonctionnalités, visiter le cours en ligne.</p><p>A moins que cela soit indiqué autrement, les données de l’Atlas forestier interactif sont sous licence <a class='bodyLink' href='http://creativecommons.org/licenses/by/4.0/deed.fr'>Creative Commons Attribution 4.0 International License</a>. Vous êtes libres de copier et redistribuer le matériel sous tous les formats, et de transformer et de mettre à profit le matériel à d’autres fins, y compris commerciales. Vous donnez donner du crédit, fournir le lien vers la licence et indiquer si des modifications ont été effectuées. Lorsque vous affichez ou citez les données, utiliser le crédit approprié tel que listé pour la série de données correspondante dans la <a class='bodyLink' href='http://cmr-data.atlas-forestier.org'>section de téléchargement</a>.</p>",
+        AboutText: "<p>L’Atlas forestier interactif de la République Démocratique du Congo est un système de suivi forestier dynamique qui fournit des informations crédibles et actualisées sur le secteur forestier a la RDC. Construit sur une plateforme SIG (Système d’Information Géographique), l’Atlas a pour but de renforcer la gestion des forêts et la planification de l’utilisation des terres en réunissant sur une même plateforme standardisée les informations sur toutes les principales catégories d’utilisation des terres.</p><p>La base de données sous-jacente de l’Atlas forestier est géré et mis à jour par le Ministère de l’Environnement et Développement Durable et le World Resources Institute (WRI), apportant de nouvelles informations à travers une <a class='bodyLink' href='http://cod.atlas-forestier.org/map/#v=atlas&l=fr&init=y'>application cartographique</a> lorsque celles sont disponibles. D’autres publications sont produites périodiquement et peuvent être trouvés dans la <a class='bodyLink' href='http://cod-data.atlas-forestier.org'>section téléchargement</a>.</p><p>L’Atlas Forestier Interactif répond à un défi en données clés en combinant les classes de gestion des forêts avec les données sur l’étendu et les changements de la couverture forestière provenant du système de suivi en temps quasi-réel <a class='bodyLink' href='http://www.globalforestwatch.org/#googtrans(en|fr)'>Global Forest Watch</a>. Par un simple clic, les utilisateurs peuvent effectuer des analyses complexes et explorer les changements de la couverture terrestre les plus récentes au sein d’une variété d’affectation des terres. Pour apprendre la large gamme de fonctionnalités, visiter le cours en ligne.</p><p>A moins que cela soit indiqué autrement, les données de l’Atlas forestier interactif sont sous licence <a class='bodyLink' href='http://creativecommons.org/licenses/by/4.0/deed.fr'>Creative Commons Attribution 4.0 International License</a>. Vous êtes libres de copier et redistribuer le matériel sous tous les formats, et de transformer et de mettre à profit le matériel à d’autres fins, y compris commerciales. Vous donnez donner du crédit, fournir le lien vers la licence et indiquer si des modifications ont été effectuées. Lorsque vous affichez ou citez les données, utiliser le crédit approprié tel que listé pour la série de données correspondante dans la <a class='bodyLink' href='http://cod-data.atlas-forestier.org'>section de téléchargement</a>.</p>",
         PartnerTitle: "Un partenariat entre",
         SupporterTitle: "Supporté par",
         Share: "Partager l'Atlas",
@@ -37,30 +37,30 @@
 }
 
 var flag = {
-    href: "http://www.minfof.cm/",
+    href: "http://www.presidentrdc.cd/",
     src: "img/flag/flag-cod.png",
 }
 
 var bcgImage = {
-    src: "url(img/title-bg-1.jpg) no-repeat center center scroll"
+    src: "url(img/title-bg.jpg) no-repeat center center scroll"
 }
 
 var link = {
     en: {
-        mapLink: "http://cmr.forest-atlas.org/map",
-        downloadLink: "http://cmr-data.forest-atlas.org"
+        mapLink: "http://cod.forest-atlas.org/map",
+        downloadLink: "http://cod-data.forest-atlas.org"
     },
     fr: {
-        mapLink: "http://cmr.atlas-forestier.org/map/#v=atlas&l=fr&init=y",
-        downloadLink: "http://cmr-data.atlas-forestier.org"
+        mapLink: "http://cod.atlas-forestier.org/map/#v=atlas&l=fr&init=y",
+        downloadLink: "http://cod-data.atlas-forestier.org"
     }
 }
 
 var partners = {
     cmrMin: {
-        href: "http://www.minfof.cm/",
-        src: "img/logo/mifw-logo.png",
-        alt: "MIFW Logo"
+        href: "http://www.presidentrdc.cd/",
+        src: "img/logo/cod-logo.png",
+        alt: "COD Logo"
     },
     wri: {
         href: "http://www.wri.org/",
@@ -82,17 +82,11 @@ var sponsors = {
         srcActive: "img/logo/usaid-logo.png",
         alt: "USAID"
     },
-    ukaid: {
-        href: "https://www.gov.uk/government/organisations/department-for-international-development",
-        src: "img/logo/ukaid-logo-bw.png",
-        srcActive: "img/logo/ukaid-logo.png",
-        alt: "UKAID"
-    },
-    nmce: {
-        href: "https://www.regjeringen.no/en/dep/kld/id668/",
-        src: "img/logo/nmce-logo-bw.png",
-        srcActive: "img/logo/nmce-logo.png",
-        alt: "Norway Ministry of the Environment"
+    carpe: {
+        href: "http://carpe.umd.edu/",
+        src: "img/logo/carpe-logo-bw.png",
+        srcActive: "img/logo/carpe-logo.png",
+        alt: "CARPE"
     },
     hexagon: {
         href: "http://www.hexagongeospatial.com/",
