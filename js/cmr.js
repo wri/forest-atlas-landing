@@ -16,7 +16,7 @@
         TermsConditions: "Terms of Service",
         ContactUs: "Contact us"
     },
-
+    
     fr: {
         EngButton: "English",
         FrButton: "Français",
