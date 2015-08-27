@@ -32,7 +32,7 @@
         SupporterTitle: "Supporté par",
         Share: "Partager l'Atlas",
         TermsConditions: "Conditions d’Utilisation",
-        ContactUs: "Contactez nous"   
+        ContactUs: "Contactez-nous"   
     }
 }
 
@@ -59,8 +59,8 @@ var link = {
 var partners = {
     cmrMin: {
         href: "http://www.minfof.cm/",
-        src: "img/logo/mifw-logo.png",
-        alt: "MIFW Logo"
+        src: "img/logo/minfof-logo.png",
+        alt: "MINFOF Logo"
     },
     wri: {
         href: "http://www.wri.org/",
