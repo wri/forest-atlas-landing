@@ -30,6 +30,8 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500&amp;subset=latin" media="all">
+
       </head>
 
       <body>
@@ -42,7 +44,7 @@
                 <!-- FLAG GOES HERE -->
               </div>
             </div>
-            <div class="lang-button text-right">
+            <div class="row lang-button text-right">
               <button type="button" class="btn btn-default" onclick="langtoggle('en')" id="EngButton"></button>
               <button type="button" class="btn btn-default" onclick="langtoggle('fr')" id="FrButton"></button>
             </div>
@@ -54,37 +56,40 @@
                 </div>
               </div>
             </div>
-    
+
             <!-------- MODULE ICONS -------->
             <div class="container content-section">
               <div class="row center" >
-                <div class="col-xs-6 col-sm-3 col-md-3 module-icon">
+                <div class="col-xs-6 col-sm-3 col-md-3">
                   <a href="" id="mapLink">
-                   <img src="img/map-icon.svg" id="map-icon" alt="Explore the Map" class="img-responsive">
+                   <img src="img/map-icon.svg" id="map-icon" alt="Explore the Map" class="img-responsive module-icon">
                    <h3 id="MapModule"></h3>
                  </a>
                </div>
-               <div class="col-xs-6 col-sm-3 col-md-3 module-icon">
+               <div class="col-xs-6 col-sm-3 col-md-3">
                 <a href="" id="downloadLink">
-                 <img src="img/download-icon.svg" id="download-icon" alt="Download the Data" class="img-responsive">
+                 <img src="img/download-icon.svg" id="download-icon" alt="Download the Data" class="img-responsive module-icon">
                  <h3 id="DownloadModule"></h3>
                </a>
              </div>
-             <div class="col-xs-6 col-sm-3 col-md-3 module-icon inactive"> 
+             <div class="col-xs-6 col-sm-3 col-md-3 inactive"> 
               <a id="analyzeLink">
-                <img src="img/analyze-icon.svg" id="analyze-icon" alt="Analyze the Data" class="img-responsive">
+                <img src="img/analyze-icon.svg" id="analyze-icon" alt="Analyze the Data" class="img-responsive module-icon">
                 <h3 id="AnalyzeModule"></h3>
               </a>    
             </div>
-            <div class="col-xs-6 col-sm-3 col-md-3 module-icon inactive">
+            <div class="col-xs-6 col-sm-3 col-md-3 inactive">
               <a id="tutorialLink">
-                <img src="img/tutorial-icon.svg" id="tutorial-icon" alt="View the Tutorials" class="img-responsive">
+                <img src="img/tutorial-icon.svg" id="tutorial-icon" alt="View the Tutorials" class="img-responsive module-icon">
                 <h3 id="TutorialModule"></h3>
               </a>
             </div>
           </div>
         </div>
       </div>
+      <div class="pull-left">
+        <a class="copyright" target="_blank" href="http://www.jbdodane.com/">Photo © jbdodane.com</a>
+      </div> 
     </header> 
 
     <!-- About the Atlas Section -->
@@ -93,10 +98,8 @@
         <h2 id="AboutTitle">
           <!-- Insert title here -->
         </h2>
-        <p id="AboutText1">
-          <!-- Insert about text here -->
-        </p>
-        <p id="AboutText2"></p>
+        <div id="AboutText">
+        </div>
       </div>
       <hr noshade>
     </section>
@@ -137,35 +140,35 @@
           <a href="http://www.esri.com/" target="_blank">
             <img src="img/logo/esri-logo-bw.png" onmouseover="this.src='img/logo/esri-logo.png'" onmouseout="this.src='img/logo/esri-logo-bw.png'" alt="ESRI" class="img-responsive">
           </a> -->
-      </div>
-      <hr noshade> 
-    </section>
-
-    <!-- Social Share Icons-->
-    <section id="social-share" class="container content-section text-center">
-      <h4 id="Share"></h4>
-      <div class="row">
-        <div class="ssk-group ssk-grayscale">
-          <a href="" class="ssk ssk-facebook"></a>
-          <a href="" class="ssk ssk-twitter"></a>
-          <a href="" class="ssk ssk-google-plus"></a>
-          <a href="" class="ssk ssk-pinterest"></a>
-          <a href="" class="ssk ssk-linkedin"></a>
-          <a href="" class="ssk ssk-tumblr"></a>
-          <a href="" class="ssk ssk-email"></a>
         </div>
-      </div>
-      <br>
-    </section>
+        <hr noshade> 
+      </section>
 
-    <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <a class="footer-link" href="http://www.wri.org" id="TermsConditions">
+      <!-- Social Share Icons-->
+      <section id="social-share" class="container content-section text-center">
+        <h4 id="Share"></h4>
+        <div class="row">
+          <div class="ssk-group ssk-grayscale">
+            <a href="" class="ssk ssk-facebook"></a>
+            <a href="" class="ssk ssk-twitter"></a>
+            <a href="" class="ssk ssk-google-plus"></a>
+            <a href="" class="ssk ssk-pinterest"></a>
+            <a href="" class="ssk ssk-linkedin"></a>
+            <a href="" class="ssk ssk-tumblr"></a>
+            <a href="" class="ssk ssk-email"></a>
+          </div>
+        </div>
+        <br>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <div class="container text-center">
+          <a class="footer-link" href="http://www.wri.org" id="TermsConditions">
+            <!-- Insert footer link here-->
+          </a> | <a class="footer-link" href="http://www.wri.org" id="ContactUs">
           <!-- Insert footer link here-->
-        </a> | <a class="footer-link" href="http://www.wri.org" id="ContactUs">
-          <!-- Insert footer link here-->
-      </a>
+        </a>
       </div>
     </footer>
 
