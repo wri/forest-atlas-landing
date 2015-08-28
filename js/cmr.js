@@ -38,7 +38,7 @@
 
 var flag = {
     href: "http://www.minfof.cm/",
-    src: "img/flag/flag-cameroon.png",
+    src: "img/flag/flag-cmr.png",
 }
 
 var bcgImage = {
