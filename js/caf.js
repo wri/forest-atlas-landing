@@ -57,7 +57,7 @@ var link = {
 }
 
 var partners = {
-    cmrMin: {
+    cafMin: {
         href: "http://www.minfof.cm/",
         src: "img/logo/car-logo.png",
         alt: "CAR Logo"
