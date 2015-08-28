@@ -57,7 +57,7 @@ var link = {
 }
 
 var partners = {
-    cmrMin: {
+    cogMin: {
         href: "http://www.mefdd.cg/accueil/",
         src: "img/logo/cog-logo.png",
         alt: "Congo Logo"
