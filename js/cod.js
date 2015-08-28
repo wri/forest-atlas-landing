@@ -37,7 +37,7 @@
 }
 
 var flag = {
-    href: "http://www.presidentrdc.cd/",
+    href: "http://www.medd.gouv.cd/v2/",
     src: "img/flag/flag-cod.png",
 }
 
@@ -58,7 +58,7 @@ var link = {
 
 var partners = {
     codMin: {
-        href: "http://www.presidentrdc.cd/",
+        href: "http://www.medd.gouv.cd/v2/",
         src: "img/logo/cod-logo.png",
         alt: "COD Logo"
     },
