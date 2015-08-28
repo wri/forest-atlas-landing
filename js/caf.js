@@ -58,7 +58,7 @@ var link = {
 
 var partners = {
     cafMin: {
-        href: "http://www.minfof.cm/",
+        href: "http://www.wri.org/our-work/project/congo-basin-forests/central-african-republic#project-tabs",
         src: "img/logo/car-logo.png",
         alt: "CAR Logo"
     },

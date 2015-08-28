@@ -188,12 +188,6 @@ a:focus {
     }
 }
 
-/*@media(min-width: @screen-lg-min) {
-    .intro {
-        padding-top: 60px;
-    }
-}
-*/
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
