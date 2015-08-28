@@ -57,7 +57,7 @@ var link = {
 }
 
 var partners = {
-    cmrMin: {
+    codMin: {
         href: "http://www.presidentrdc.cd/",
         src: "img/logo/cod-logo.png",
         alt: "COD Logo"
