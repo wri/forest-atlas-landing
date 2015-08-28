@@ -121,7 +121,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     text-shadow: 1px 1px 1px #747474;
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .intro .intro-body .intro-text {
@@ -188,6 +188,12 @@ a:focus {
     }
 }
 
+/*@media(min-width: @screen-lg-min) {
+    .intro {
+        padding-top: 60px;
+    }
+}
+*/
 footer {
     padding-top: 20px;
     padding-bottom: 20px;
