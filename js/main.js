@@ -27,7 +27,7 @@ function iconHover() {
 			image3.src="img/coming-soon-icon.svg";
 		}
 		else {
-			image3.src="img/a-venir-icon.svg"
+			image3.src="img/proximamente-icon.svg"
 		}
 	}, false);
 	link3.addEventListener("mouseout", function(){
@@ -37,7 +37,7 @@ function iconHover() {
 			image4.src="img/coming-soon-icon.svg";
 		}
 		else {
-			image4.src="img/a-venir-icon.svg"
+			image4.src="img/proximamente-icon.svg"
 		}
 	}, false);
 	link4.addEventListener("mouseout", function(){
@@ -49,15 +49,15 @@ function iconHover() {
 function langtoggle(l){
 
 	if (l == 'en' ){
-		local_lang = lang.en,
-		local_link = link.en
+		local_lang = lang.en;
+		local_link = link.en;
 		window.location.hash = "#l=en";
 	}
 
-	else if (l == 'fr') {
-		local_lang = lang.fr,
-		local_link = link.fr
-		window.location.hash = "#l=fr";
+	else if (l == 'es') {
+		local_lang = lang.es;
+		local_link = link.es;
+		window.location.hash = "#l=es";
 	}	
 
 	for(var key in local_lang) {
@@ -75,8 +75,8 @@ function loadLanguage() {
 	if (hash == '' || hash == '#l=en') {
 		langtoggle('en')
 	}
-	else if (hash == '#l=fr') {
-		langtoggle('fr')
+	else if (hash == '#l=es') {
+		langtoggle('es')
 	}
 }
 
