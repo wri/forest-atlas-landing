@@ -1,7 +1,7 @@
    var lang = {
     en: {
         EngButton: "English",
-        FrButton: "Français",
+        FrButton: "Español",
         Title: "Interactive Forest Atlas of Equatorial Guinea",
         SubTitle: "A practical tool for understanding and working within Equatorial Guinea's forest sector",
         MapModule: "Explore the Map",
@@ -19,20 +19,20 @@
     
     fr: {
         EngButton: "English",
-        FrButton: "Français",
-        Title: "Atlas Forestier Interactif de la Guinée-Équatoriale",
-        SubTitle: "Un outil pratique pour comprendre et travailler dans le secteur forestier de la Guinée-Équatoriale",
-        MapModule: "Explorer la Carte",
-        DownloadModule: "Télécharger les Données",
-        AnalyzeModule: "Analyzer les Données",
-        TutorialModule: "Regarder les Didacticiels",
-        AboutTitle: "A Propos l'Atlas",
-        AboutText: "<p>L’Atlas forestier interactif de la Guinée-Équatoriale est un système de suivi forestier dynamique qui fournit des informations crédibles et actualisées sur le secteur forestier à la Guinée-Équatoriale. Construit sur une plateforme SIG (Système d’Information Géographique), l’Atlas a pour but de renforcer la gestion des forêts et la planification de l’utilisation des terres en réunissant sur une même plateforme standardisée les informations sur toutes les principales catégories d’utilisation des terres.</p><p>La base de données sous-jacente de l’Atlas forestier est géré et mis à jour par le Ministère de l'Agriculture et des Forêts et le World Resources Institute (WRI), apportant de nouvelles informations à travers une <a class='bodyLink' href='http://gnq.atlas-forestier.org/map/#v=atlas&l=fr&init=y'>application cartographique</a> lorsque celles sont disponibles. D’autres publications sont produites périodiquement et peuvent être trouvés dans la <a class='bodyLink' href='http://gnq-data.atlas-forestier.org'>section téléchargement</a>.</p><p>L’Atlas Forestier Interactif répond à un défi en données clés en combinant les classes de gestion des forêts avec les données sur l’étendu et les changements de la couverture forestière provenant du système de suivi en temps quasi-réel <a class='bodyLink' href='http://www.globalforestwatch.org/#googtrans(en|fr)'>Global Forest Watch</a>. Par un simple clic, les utilisateurs peuvent effectuer des analyses complexes et explorer les changements de la couverture terrestre les plus récentes au sein d’une variété d’affectation des terres. Pour apprendre la large gamme de fonctionnalités, visiter le cours en ligne.</p><p>A moins que cela soit indiqué autrement, les données de l’Atlas forestier interactif sont sous licence <a class='bodyLink' href='http://creativecommons.org/licenses/by/4.0/deed.fr'>Creative Commons Attribution 4.0 International License</a>. Vous êtes libres de copier et redistribuer le matériel sous tous les formats, et de transformer et de mettre à profit le matériel à d’autres fins, y compris commerciales. Vous donnez donner du crédit, fournir le lien vers la licence et indiquer si des modifications ont été effectuées. Lorsque vous affichez ou citez les données, utiliser le crédit approprié tel que listé pour la série de données correspondante dans la <a class='bodyLink' href='http://gnq-data.atlas-forestier.org'>section de téléchargement</a>.</p>",
-        PartnerTitle: "Un partenariat entre",
-        SupporterTitle: "Supporté par",
-        Share: "Partager l'Atlas",
-        TermsConditions: "Conditions d’Utilisation",
-        ContactUs: "Contactez-nous"   
+        FrButton: "Español",
+        Title: "Atlas Forestal Interactivo de Guinea Ecuatorial",
+        SubTitle: "Una herramienta prática para entender y trabajar dentro del sector forestal de Guinea Ecuatorial",
+        MapModule: "Explorar el Mapa",
+        DownloadModule: "Descargar los Datos",
+        AnalyzeModule: "Analizar los Datos",
+        TutorialModule: "Mirar los Tutoriales",
+        AboutTitle: "A Propósito del Atlas",
+        AboutText: "<p>El atlas forestal interactivo de Guinea Ecuatorial es un sistema vivo y dinámico de monitoreo forestal que provee información imparcial y actualizada sobre el sector forestal del país. Desarrollado en una plataforma Sistema de Información Geográfica (SIG), el Atlas pretende fortalecer el manejo forestal y la planificación el uso de la tierra trayendo información de todas las principales categorías de uso de suelo en una misma plataforma estandarizada.</p><p>El Ministerio de Agricultura y Bosques de Guinea Ecuatorial y el World Resources Institute (WRI) mantienen y actualizan la base de datos subyacente del atlas forestal y hace pública la nueva información conforme se encuentra disponible a través de esta <a class='bodyLink' href='http://www.gnq.forest-atlas.org/map'>aplicación cartográfica</a>. Otras publicaciones se ponen a la disposición del público periódicamente y se pueden encontrar en la <a class='bodyLink' href='http://www.gnq-data.forest-atlas.or'>sección de descargas</a>.</p><p>El atlas forestal interactivo de Guinea Ecuatorial supera un desafío clave de información porque integra información sobre el manejo forestal con la extensión de la cobertura del bosque e información de cambios del sistema de monitoreo en tiempo casi-real de <a class='bodyLink' href='http://www.globalforestwatch.org/'>Global Forest Watch</a>. Con un simple click, los usuarios pueden realizar análisis complejos  y explorar los cambios de la cobertura de suelo más actualizados dentro de una variedad de asignaciones de la tierra. Para aprender más sobre la amplia gama de funcionalidad, visite la tutoría.</p><p>A menos que se indique lo contrario, toda la información en el atlas está bajo la licencia <a class='bodyLink' href='http://www.creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International License</a>. El usuario puede copiar y redistribuir el material en cualquier formato. El usuario también puede transformar y basarse en el material para cualquier propósito, incluyendo uso comercial, siempre y cuando se dé crédito adecuado a los autores, provea un enlace a la licencia, e indique si se hicieron cambios. Cuando despliegue y cite la información, use el crédito adecuado tal como lo señala la información correspondiente a la capa, en la <a class='bodyLink' href='http://www.gnq-data.forest-atlas.or'>sección de descargas</a>.</p>",
+        PartnerTitle: "Una colaboración entre",
+        SupporterTitle: "Apoyado por",
+        Share: "Compartir el Atlas",
+        TermsConditions: "Términos del Servicio",
+        ContactUs: "Contáctenos"   
     }
 }
 
