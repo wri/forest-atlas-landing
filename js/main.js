@@ -113,7 +113,7 @@ function generatePartnerLogos() {
 		var newLink = document.createElement('a');
 		var newImg = document.createElement('img');
 		newDiv.setAttribute('id',key);
-		newDiv.className += "col-xs-6" + " col-md-4" + " col-lg-3";
+		newDiv.className += "col-xs-6" + " col-md-4";
 		newLink.href = partner["href"];
 		newImg.className += " img-responsive";
 		newImg.setAttribute('src',partner["src"]);
