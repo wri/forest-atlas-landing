@@ -68,14 +68,16 @@ function langtoggle(l){
 	}
 }
 
-//Check URL hash; set appropriate page language. Defaults to English
+//Check URL hash; set appropriate page language.
 function loadLanguage() {
 
+	var domain = window.location.origin.split(".")[1];
 	var hash = window.location.hash;
-	if (hash == '' || hash == '#l=en') {
+
+	if (hash == '#l=en' || (hash == '' && domain == 'forest-atlas')) {
 		langtoggle('en')
 	}
-	else if (hash == '#l=es') {
+	else {
 		langtoggle('es')
 	}
 }
