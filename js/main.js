@@ -78,7 +78,7 @@ function loadLanguage() {
 		langtoggle('en')
 	}
 	else {
-		langtoggle('fr')
+		langtoggle('en')
 	}
 }
 
