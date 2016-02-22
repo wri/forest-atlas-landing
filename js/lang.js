@@ -9,7 +9,7 @@
         AnalyzeModule: "Analyze the Data",
         TutorialModule: "View the Tutorials",
         AboutTitle: "About the Atlas",
-        AboutText: "<p>Ethiopia has set for itself, and the world, a high bar: in its development blueprint, the Climate Resilient Green Economy (CRGE) Strategy, it aims to achieve middle-income status by 2025 while transitioning to a climate-resilient green economy. Tree-based landscape restoration is central to these goals as trees contribute not only directly to economic development and raising living standards, but to carbon mitigation and adaptation. While trees have played a significant role in many of Ethiopia's successful restoration initiatives, tree-based landscape restoration need to be scaled up if it is to help Ethiopia meet its ambitious goals by 2025.</p><p>No single institution can singlehandedly scale up tree-based landscape restoration in agricultural, pastoral, and natural landscapes as needed to regain ecological functionality and enhance standards of living across Ethiopia. Such restoration at scale will require many state and non-state actors to act in concert and mobilize additional financial and human resources.In support of the restoration movement in Ethiopia, the Ministry of Environment, Forest and Climate Change (MEFCC), with input from regional and national experts from various sectors, has been developing national tree-based landscape restoration potential maps to support national planning and coordination. Built on a geographic information system (GIS) platform, the Interactive Restoration Atlas of Ethiopia shares the results of this effort. It also provides information on forest cover extent and change data from Global Forest Watch’s near-real-time monitoring system. With a simple click, users can run spatial analyses. To learn about the method and data used in producing the restoration potential maps, the users can refer to the online technical documentation.</p><p>The underlying restoration atlas database is supported and kept up-to-date by the Ministry of Environment, Forest and Climate Change.</p><p>Unless otherwise noted, Atlas data are licensed under a Creative Commons Attribution 4.0 International License. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made. When displaying and citing the data, use the appropriate credit as listed for the corresponding dataset in the download section.</p>",
+        AboutText: "<p>Ethiopia has set for itself, and the world, a high bar: in its development blueprint, the Climate Resilient Green Economy (CRGE) Strategy, it aims to achieve middle-income status by 2025 while transitioning to a climate-resilient green economy. Tree-based landscape restoration is central to these goals as trees contribute not only directly to economic development and raising living standards, but to carbon mitigation and adaptation. While trees have played a significant role in many of Ethiopia's successful restoration initiatives, tree-based landscape restoration need to be scaled up if it is to help Ethiopia meet its ambitious goals by 2025.</p><p>No single institution can singlehandedly scale up tree-based landscape restoration in agricultural, pastoral, and natural landscapes as needed to regain ecological functionality and enhance standards of living across Ethiopia. Such restoration at scale will require many state and non-state actors to act in concert and mobilize additional financial and human resources.In support of the restoration movement in Ethiopia, the <A class='bodyLink' href='https://www.facebook.com/MefEth/'>Ministry of Environment, Forest and Climate Change (MEFCC)</A>, with input from regional and national experts from various sectors, has been developing national tree-based landscape restoration potential maps to support national planning and coordination. Built on a geographic information system (GIS) platform, the Interactive Restoration Atlas of Ethiopia shares the results of this effort. It also provides information on forest cover extent and change data from <A class='bodyLink' href='http://www.globalforestwatch.org'>Global Forest Watch’s</A> near-real-time monitoring system. With a simple click, users can run spatial analyses. To learn about the method and data used in producing the restoration potential maps, the users can refer to the online technical documentation.</p><p>The underlying restoration atlas database is supported and kept up-to-date by the Ministry of Environment, Forest and Climate Change.</p><p>Unless otherwise noted, Atlas data are licensed under a <A class='bodyLink' href='http://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International</A> License. You are free to copy and redistribute the material in any medium or format, and to transform and build upon the material for any purpose, even commercially. You must give appropriate credit, provide a link to the license, and indicate if changes were made. When displaying and citing the data, use the appropriate credit as listed for the corresponding dataset in the <A class='bodyLink' href='http://eth-data.forest-atlas.org/'>download section</A>.</p>",
         PartnerTitle: "A partnership between",
         SupporterTitle: "Supported by",
         Share: "Share the Atlas",
@@ -64,7 +64,14 @@ var sponsors = {
         srcActive: "img/logo/gfw-logo.png",
         alt: "GFW"
     },
-    gef: {
+    
+	bmub: {
+        href: "http://www.bmub.bund.de/en/",
+        src: "img/logo/bmub-bw.png",
+        srcActive: "img/logo/bmub.png",
+        alt: "Federal Ministry for the Environment, Nature Conservation, Building and Nuclear Safety of Germany"
+    },
+	gef: {
         href: "https://www.thegef.org/gef/",
         src: "img/logo/gef-bw.png",
         srcActive: "img/logo/gef.png",
@@ -76,12 +83,7 @@ var sponsors = {
         srcActive: "img/logo/bmz.png",
         alt: "Federal Ministry for Economic Cooperation and Development of Germany"
     },
-    bmub: {
-        href: "http://www.bmub.bund.de/en/",
-        src: "img/logo/bmub-bw.png",
-        srcActive: "img/logo/bmub.png",
-        alt: "Federal Ministry for the Environment, Nature Conservation, Building and Nuclear Safety of Germany"
-    },
+    
     nmce: {
         href: "https://www.regjeringen.no/en/dep/kld/id668/",
         src: "img/logo/nmce-logo-bw.png",

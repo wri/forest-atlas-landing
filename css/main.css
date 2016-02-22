@@ -229,6 +229,7 @@ body {
 
 .title-background {
     background-color: rgba(200,200,200,0.4);
+    margin-top: 20px;
 }
 
 .language-menu {
