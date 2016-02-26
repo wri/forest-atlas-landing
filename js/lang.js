@@ -63,33 +63,39 @@ var sponsors = {
         src: "img/logo/gfw-logo-bw.png",
         srcActive: "img/logo/gfw-logo.png",
         alt: "GFW"
-    },
-    
+		},
+
 	bmub: {
         href: "http://www.bmub.bund.de/en/",
         src: "img/logo/bmub-bw.png",
         srcActive: "img/logo/bmub.png",
         alt: "Federal Ministry for the Environment, Nature Conservation, Building and Nuclear Safety of Germany"
     },
-	gef: {
-        href: "https://www.thegef.org/gef/",
-        src: "img/logo/gef-bw.png",
-        srcActive: "img/logo/gef.png",
-        alt: "Global Envionment Facility"
-    },
-    bmz: {
+	
+	nmce: {
+        href: "https://www.regjeringen.no/en/dep/kld/id668/",
+        src: "img/logo/nmce-logo-bw.png",
+        srcActive: "img/logo/nmce-logo.png",
+        alt: "Norway Ministry of the Environment"
+    },	
+
+	bmz: {
         href: "https://www.bmz.de/en/",
         src: "img/logo/bmz-bw.png",
         srcActive: "img/logo/bmz.png",
         alt: "Federal Ministry for Economic Cooperation and Development of Germany"
     },
     
-    nmce: {
-        href: "https://www.regjeringen.no/en/dep/kld/id668/",
-        src: "img/logo/nmce-logo-bw.png",
-        srcActive: "img/logo/nmce-logo.png",
-        alt: "Norway Ministry of the Environment"
+    
+
+	gef: {
+        href: "https://www.thegef.org/gef/",
+        src: "img/logo/gef-bw.png",
+        srcActive: "img/logo/gef.png",
+        alt: "Global Envionment Facility"
     },
+
+    
     esri: {
         href: "http://www.esri.com/",
         src: "img/logo/esri-logo-bw.png",
