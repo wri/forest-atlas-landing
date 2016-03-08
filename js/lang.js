@@ -31,11 +31,11 @@ var bcgImage = {
 var link = {
     en: {
         mapLink: "http://my.forest-atlas.org/map/?appid=3e056b4e11a54e67b6f8b90c3787cf1d",
-        downloadLink: "http://eth-data.forest-atlas.org"
+        downloadLink: "http://data.mefcc.opendata.arcgis.com/"
     },
     fr: {
         mapLink: "http://my.forest-atlas.org/map/?appid=3e056b4e11a54e67b6f8b90c3787cf1d",
-        downloadLink: "http://eth-data.atlas-forestier.org"
+        downloadLink: "http://data.mefcc.opendata.arcgis.com/"
     }
 }
 
